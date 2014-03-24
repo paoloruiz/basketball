@@ -1,0 +1,347 @@
+USC 14
+UT Arlington 19
+UCLA 24
+ULL 11
+ULM 4
+UMBC 7
+UNC Asheville 13
+UNC Greensboro 7
+UNC Wilmington 10
+UNLV 24
+Ohio 24
+Oakland 14
+Notre Dame 25
+Northwestern LA 18
+Northwestern 13
+Northern Iowa 17
+Northern Arizona 11
+Northeastern 20
+North Texas 12
+North Florida 12
+FL Gulf Coast 22
+FL Atlantic 13
+Florida A&M 6
+Florida 26
+Florida St 18
+Florida Intl 18
+Fresno St 9
+Fordham 7
+G Washington 13
+Furman 5
+Binghamton 2
+Boise St 19
+Boston College 16
+Ball St 15
+Baylor 17
+Belmont 22
+Bethune-Cookman 12
+Boston Univ 17
+Bowling Green 11
+La Salle 20
+Kentucky 19
+Lamar 4
+Lafayette 19
+Liberty 12
+Lehigh 19
+Long Beach St 17
+Lipscomb 12
+Longwood 8
+Long Island 21
+Rider 18
+Robert Morris 23
+Yale 12
+Youngstown St 15
+Wofford 12
+Wright St 20
+Wyoming 17
+Xavier 16
+S Dakota St 21
+S Illinois 13
+Radford 10
+Rhode Island 8
+Rice 4
+Richmond 17
+Connecticut 20
+Columbia 10
+Rutgers 15
+S Carolina St 5
+Colgate 11
+Col Charleston 24
+Colorado St 23
+Colorado 21
+Clemson 13
+Citadel 7
+Coastal Car 11
+Cleveland St 11
+Houston Bap 11
+Howard 6
+Harvard 18
+Hawaii 16
+Hampton 14
+Hartford 17
+Holy Cross 12
+Houston 18
+High Point 15
+Hofstra 6
+N Dakota St 22
+N Colorado 11
+MS Valley St 6
+Murray St 19
+Mt St Mary's 17
+Montana St 11
+Montana 23
+Morgan St 17
+Morehead St 13
+Santa Clara 19
+Villanova 19
+Vermont 21
+VA Commonwealth 25
+UTEP 18
+Vanderbilt 16
+Valparaiso 25
+Utah 13
+UT San Antonio 10
+Utah Valley 10
+Utah St 20
+North Carolina 22
+North Dakota 14
+Niagara 20
+Nicholls St 9
+NJIT 12
+Norfolk St 22
+New Hampshire 8
+New Mexico 29
+New Mexico St 23
+New Orleans 4
+TN Martin 7
+Texas Tech 11
+Texas St 11
+Texas A&M 18
+Texas 16
+Tennessee Tech 10
+Tennessee St 16
+Tennessee 20
+Towson 17
+Toledo 15
+ETSU 10
+Evansville 17
+Edwardsville 7
+Elon 19
+E Washington 10
+East Carolina 14
+E Kentucky 22
+E Michigan 13
+F Dickinson 10
+Fairfield 19
+Austin Peay 7
+Auburn 9
+Arizona 25
+Appalachian St 14
+Ark Little Rock 16
+Arizona St 21
+Arkansas 18
+Ark Pine Bluff 16
+Army 15
+Arkansas St 18
+Illinois 21
+IL Chicago 16
+Idaho St 5
+Idaho 11
+Iona 19
+Indiana St 17
+Indiana 25
+Illinois St 17
+Iowa St 23
+Iowa 21
+Maine 10
+Loyola-Chicago 14
+LSU 18
+Loy Marymount 10
+Loyola MD 21
+Louisiana Tech 25
+Louisville 29
+Manhattan 14
+Marist 9
+San Diego 14
+Samford 10
+San Jose St 8
+Savannah St 17
+St Bonaventure 13
+Southern Utah 11
+St Francis PA 5
+CS Bakersfield 10
+South Florida 12
+South Dakota 8
+Southern Univ 20
+Southern Miss 22
+St Joseph's PA 18
+St John's 16
+Miami OH 8
+Miami FL 27
+Mercer 21
+Memphis 30
+MD E Shore 3
+McNeese St 12
+Massachusetts 21
+Maryland 21
+Marshall 14
+Marquette 23
+Navy 7
+NC A&T 18
+N Illinois 4
+N Kentucky 11
+NE Omaha 11
+NC Central 19
+NC State 24
+Nebraska 15
+Nevada 11
+Cent Arkansas 10
+Campbell 10
+Canisius 18
+Charlotte 22
+Chattanooga 11
+Central Conn 15
+Charleston So 15
+Chicago St 7
+Cincinnati 21
+VMI 12
+W Carolina 12
+Virginia 21
+Virginia Tech 13
+W Michigan 19
+W Illinois 20
+W Kentucky 19
+Wagner 18
+Wake Forest 13
+Stetson 14
+Stony Brook 23
+Syracuse 25
+TAM C. Christi 5
+St Louis 27
+St Mary's CA 25
+St Peter's 9
+Stanford 18
+TCU 10
+Temple 23
+E Illinois 11
+Duquesne 8
+DePaul 11
+Denver 21
+Delaware St 13
+Delaware 19
+Duke 27
+Drexel 13
+Drake 14
+Detroit 17
+Pittsburgh 24
+Pepperdine 11
+Portland St 6
+Portland 9
+Presbyterian 5
+Prairie View 12
+Alcorn St 9
+Princeton 16
+Alabama St 9
+Purdue 15
+Alabama 20
+Alabama A&M 9
+Air Force 15
+Akron 25
+IPFW 14
+IUPUI 4
+Jackson St 12
+Jacksonville 12
+Jacksonville St 15
+James Madison 21
+Kansas 28
+Kansas St 26
+Kennesaw 3
+Kent 19
+UCF 18
+UC Riverside 4
+TX Pan American 12
+Tulsa 15
+Tulane 18
+Troy 12
+UC Irvine 18
+UC Davis 14
+UAB 16
+TX Southern 17
+South Alabama 16
+South Carolina 14
+SE Missouri St 15
+Seattle 7
+SC Upstate 14
+SE Louisiana 12
+Siena 8
+SMU 14
+Seton Hall 15
+SF Austin 23
+Missouri St 9
+Monmouth NJ 11
+Mississippi 26
+Mississippi St 10
+Missouri 22
+Missouri KC 7
+Michigan 25
+Michigan St 24
+Middle Tenn St 28
+Minnesota 20
+C Michigan 10
+BYU 20
+Butler 25
+Buffalo 12
+Bucknell 27
+Bryant 18
+Brown 12
+Bradley 16
+California 20
+Cal Poly SLO 16
+St Francis NY 12
+William & Mary 12
+Wichita St 26
+WI Milwaukee 6
+WI Green Bay 17
+West Virginia 13
+Weber St 24
+Washington St 13
+Washington 18
+Wisconsin 23
+Winthrop 11
+Davidson 25
+Dayton 17
+Sam Houston St 14
+Sacred Heart 10
+Santa Barbara 10
+Providence 17
+San Francisco 13
+San Diego St 20
+Coppin St 7
+Cornell 12
+Creighton 26
+American Univ 10
+CS Fullerton 10
+CS Northridge 13
+CS Sacramento 12
+Dartmouth 8
+Quinnipiac 16
+Albany NY 24
+Oregon St 13
+Pacific 20
+Oral Roberts 17
+Oregon 26
+Oklahoma St 24
+Old Dominion 5
+Ohio St 26
+Oklahoma 20
+Penn 9
+Penn St 10
+Georgia St 14
+Georgia 15
+Gonzaga 29
+Georgia Tech 16
+Gardner Webb 18
+Ga Southern 12
+Georgetown 25
+George Mason 18
+Grambling 0

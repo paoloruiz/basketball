@@ -1,0 +1,351 @@
+Southern California	5.27848096805
+Texas-Arlington	5.44382840338
+UCLA	6.92849608937
+Louisiana-Lafayette	5.94845530235
+Louisiana-Monroe	4.52580437093
+Maryland-Baltimore County	4.59324815545
+North Carolina-Asheville	5.45921153622
+North Carolina-Greensboro	4.88243085665
+North Carolina-Wilmington	4.40397697588
+Nevada-Las Vegas	5.30358052686
+Ohio	5.22401662515
+Oakland	5.26647154963
+Notre Dame	5.40657606846
+Northwestern State	6.09963638974
+Northwestern	4.64829857153
+Northern Iowa	5.3000439656
+Northern Arizona	4.7425106369
+Northeastern	4.74675474579
+North Texas	4.96862795562
+North Florida	5.02619431845
+Florida Gulf Coast	5.12646850681
+Florida Atlantic	4.69643855469
+Florida A&M	4.89727417999
+Florida	5.97765459863
+Florida State	5.47252761584
+Florida International	4.83668549388
+Fresno State	5.17737659629
+Fordham	5.14490193193
+George Washington	5.81291364662
+Furman	4.44254695599
+Binghamton	4.33899494603
+Boise State	5.61504987256
+Boston College	5.19331680397
+Ball State	4.53309792163
+Baylor	6.11402726165
+Belmont	5.78881446285
+Bethune-Cookman	4.31579037171
+Boston University	5.12906672252
+Bowling Green State	4.44609309667
+La Salle	5.01891466002
+Kentucky	5.96857092245
+Lamar	4.7098537688
+Lafayette	5.01454008208
+Liberty	4.86594196329
+Lehigh	4.7050765638
+Long Beach State	4.97169731531
+Lipscomb	5.33673589822
+Longwood	4.7384550038
+Long Island University	5.09077554399
+Rider	5.24535888311
+Columbia	4.81949948785
+Yale	4.72925997142
+Youngstown State	5.35596276436
+Incarnate Word	5.45577168551
+Wofford	4.66043792207
+Wright State	4.84708138005
+Wyoming	4.8503976675
+Xavier	5.77126550422
+South Dakota State	5.12789469461
+Southern Illinois	4.73399088785
+Radford	5.38840347291
+Rhode Island	4.93330846638
+Rice	4.35200791863
+Richmond	5.02515337521
+Connecticut	6.37380018523
+Robert Morris	5.20154349215
+Rutgers	5.20848914617
+South Carolina State	4.37830768125
+Colgate	4.89011723306
+College of Charleston	4.50244366946
+Colorado State	5.14472654748
+Colorado	5.71104614888
+Clemson	4.96381052068
+Citadel	4.51662519073
+Coastal Carolina	5.04478423087
+Cleveland State	5.25970451892
+Houston Baptist	4.77625422
+Howard	4.23400475659
+Harvard	5.39017193586
+Hawaii	5.66583124786
+Hampton	5.18393435477
+Hartford	4.66533109909
+Holy Cross	4.74421371161
+Houston	5.38014911492
+High Point	4.93171489345
+Hofstra	4.85729400427
+North Dakota State	5.4342025557
+Northern Colorado	5.23933554789
+Mississippi Valley State	4.92129503378
+Murray State	5.40808070745
+Mount St. Mary's	5.54688269659
+Montana State	4.65992119558
+Montana	5.01059903015
+Morgan State	5.04884563408
+Morehead State	5.36261062922
+Villanova	6.65844933722
+Vermont	5.05036372128
+Virginia Commonwealth	6.04836555773
+Texas-El Paso	5.07983811388
+Vanderbilt	4.78542493157
+Valparaiso	5.06805369891
+Utah	5.62238496153
+Texas-San Antonio	4.8639643336
+Utah Valley	4.76699928192
+Utah State	5.02038720973
+North Carolina	6.29814454018
+North Dakota	5.44865988593
+Niagara	5.35808613576
+Nicholls State	4.82957308148
+NJIT	4.84222746109
+Norfolk State	4.89598712003
+New Hampshire	4.00504267567
+New Mexico	6.11896068326
+New Mexico State	5.70739558502
+New Orleans	5.16852134765
+Tennessee-Martin	5.19608805069
+Texas Tech	5.19751983814
+Texas State	4.26248487534
+Texas A&M	4.86082327428
+Texas	6.20854395424
+Tennessee Tech	5.00179384329
+Tennessee State	4.74546314734
+Tennessee	5.50922975934
+Towson	5.17402529088
+Toledo	5.82151199285
+East Tennessee State	5.43258202481
+Evansville	4.84077363825
+SIU Edwardsville	5.10677469353
+Elon	5.12902653026
+Eastern Washington	5.37781195831
+East Carolina	5.08328946881
+Eastern Kentucky	5.54985628254
+Eastern Michigan	4.73281046896
+Fairleigh Dickinson	5.23972706888
+Fairfield	4.50043591487
+Austin Peay	5.32116851823
+Auburn	5.18450962369
+Arizona	6.67794920488
+Appalachian State	4.51443160727
+Arkansas-Little Rock	5.13254058571
+Arizona State	6.14644081577
+Arkansas	6.08388143338
+Arkansas-Pine Bluff	4.45696136261
+Army	5.1296505226
+Arkansas State	5.4294659716
+Illinois	5.0979603088
+Illinois-Chicago	4.66566328853
+Idaho State	4.95710981461
+Idaho	5.21198932491
+Iona	6.01490189261
+Indiana State	5.07647941973
+Indiana	5.71352137601
+Illinois State	5.0418507502
+Iowa State	7.05166863289
+Iowa	6.39714969225
+MA Lowell	4.30080443161
+Maine	5.08014372692
+Loyola (IL)	4.66338200814
+Louisiana State	5.66934782202
+Loyola Marymount	5.22403023294
+Loyola (MD)	4.53595729674
+Louisiana Tech	5.92997419545
+Louisville	6.77585307383
+Manhattan	5.63201741447
+Marist	4.85082907353
+San Diego	4.79251362317
+Samford	4.99448353242
+San Jose State	4.36317700384
+Savannah State	4.2420631554
+St. Bonaventure	5.47480388661
+Southern Utah	4.09098608935
+Saint Francis (PA)	4.41257397121
+Cal State Bakersfield	4.88543219941
+South Florida	4.74568264466
+South Dakota	4.74633811307
+Southern	4.86398378505
+Southern Mississippi	5.25724467936
+Saint Joseph's	5.63560295984
+St. John's (NY)	5.6334682403
+Miami (OH)	4.6793146777
+Miami (FL)	4.73540696011
+Mercer	5.58718506324
+Memphis	6.08764830385
+Maryland-Eastern Shore	4.67360422702
+McNeese State	4.77585778032
+Massachusetts	6.09110969506
+Maryland	5.51345992211
+Marshall	4.93320420688
+Marquette	5.50998093567
+Navy	4.18265751517
+North Carolina A&T	4.54350079557
+Northern Illinois	4.35374857884
+Northern Kentucky	4.81502340452
+Nebraska-Omaha	5.59305329373
+North Carolina Central	5.17577664191
+North Carolina State	5.68055337922
+Nebraska	5.49054732174
+Nevada	5.39126558312
+Central Arkansas	5.06621350559
+Campbell	4.68289823763
+Canisius	5.62072940815
+Charlotte	5.41779317413
+Chattanooga	5.27903126572
+Central Connecticut State	5.00327721191
+Charleston Southern	5.5217711623
+Chicago State	5.10148816559
+Cincinnati	5.74484484918
+VMI	5.90615515091
+Western Carolina	5.28263296369
+Virginia	5.85831231904
+Virginia Tech	4.52211387451
+Western Michigan	5.32179214176
+Western Illinois	4.19620545769
+Western Kentucky	4.93800127348
+Wagner	5.13814934189
+Wake Forest	5.46025011975
+Stetson	4.36170402158
+Stony Brook	5.17000182869
+Syracuse	6.18349382402
+Texas A&M-Corpus Christi	4.87250666384
+Saint Louis	5.50991822125
+Saint Mary's (CA)	5.3097776165
+Saint Peter's	4.54643000028
+Stanford	5.97125219749
+Texas Christian	4.54248574832
+Temple	5.41604922293
+Eastern Illinois	4.7428154784
+Duquesne	5.311590027
+DePaul	5.14091847972
+Denver	4.72881821578
+Delaware State	4.1908391339
+Delaware	5.72209721362
+Duke	6.87299514106
+Drexel	4.96407843837
+Drake	4.81255679493
+Detroit Mercy	5.09255791729
+Pittsburgh	5.73589957785
+Pepperdine	5.15026615538
+Portland State	5.1316124129
+Portland	5.49787338283
+Presbyterian	4.49094559864
+Prairie View	4.91199676841
+Alcorn State	4.51157693361
+Princeton	5.13366257101
+Quinnipiac	5.70025672214
+Albany (NY)	4.72750076842
+Alabama	4.91874114778
+Alabama A&M	4.52489743178
+Air Force	4.62814342133
+Akron	4.98135687193
+Abilene Chr	4.48239394548
+IPFW	5.25801862922
+IUPUI	4.46490748727
+Jackson State	4.69901187511
+Jacksonville	5.15811171845
+Jacksonville State	4.50071725211
+James Madison	4.48101947262
+Kansas	7.11227631305
+Kansas State	5.77335902974
+Kennesaw State	4.49870659232
+Kent State	4.95847738426
+Central Florida	5.09148300383
+California-Riverside	4.73622687012
+Texas-Pan American	4.62054021754
+Tulsa	5.49808685467
+Tulane	4.60572521574
+Troy	4.78161139425
+California-Irvine	5.00408096194
+California-Davis	4.88830039601
+Alabama-Birmingham	5.40673913313
+Texas Southern	5.35433963255
+South Alabama	4.85843610004
+South Carolina	5.02393702461
+Southeast Missouri State	5.74587489961
+Seattle	5.00400666431
+South Carolina Upstate	5.17217734655
+Southeastern Louisiana	4.83559981498
+Siena	5.01745355459
+Southern Methodist	5.7169555026
+Seton Hall	5.78053072508
+Stephen F. Austin	5.49436423271
+Missouri State	4.95479223951
+Monmouth	4.89576327926
+Mississippi	5.5955277119
+Mississippi State	4.85980706242
+Missouri	5.62199732511
+Missouri-Kansas City	5.13270969171
+Michigan	6.52040297836
+Michigan State	6.51142662013
+Middle Tennessee	5.05324706115
+Minnesota	5.63152630849
+Central Michigan	4.90914135348
+Brigham Young	6.58898931563
+Butler	4.95489436129
+Buffalo	5.31975308063
+Bucknell	4.70411122182
+Bryant	5.30689391696
+Brown	4.99841847312
+Bradley	4.54649896717
+California	5.84521200002
+Cal Poly	4.47334650341
+St. Francis (NY)	4.94489350035
+William & Mary	5.18195476028
+Wichita State	5.81462754653
+Milwaukee	5.25506361198
+Green Bay	5.5958836642
+West Virginia	5.95686389089
+Weber State	5.18693142199
+Washington State	4.57819848825
+Washington	5.74567635662
+Wisconsin	6.88672160673
+Winthrop	5.12860397173
+Davidson	5.72698153878
+Dayton	5.75056804011
+Sam Houston State	5.31779201402
+Sacred Heart	4.93525844602
+California-Santa Barbara	5.15332942324
+Providence	5.86196094346
+San Francisco	5.47506756191
+San Diego State	5.55337353778
+Coppin State	4.88692129539
+Cornell	4.48401380516
+Creighton	6.80570061346
+Santa Clara	5.00390318297
+Cal State Fullerton	4.81208004566
+Cal State Northridge	5.43513571572
+Sacramento State	4.86922903368
+Dartmouth	4.66750391701
+Alabama State	4.9884446887
+Purdue	5.37835442268
+Oregon State	5.76977860395
+Pacific	5.26413304241
+Oral Roberts	5.13634663998
+Oregon	6.6993932618
+Oklahoma State	6.2685502335
+Old Dominion	4.52761772838
+Ohio State	5.8400777
+Oklahoma	6.71385052642
+Pennsylvania	4.8253126568
+Penn State	5.47325890012
+Georgia State	5.6595365677
+Georgia	5.18121186585
+Gonzaga	5.82598797078
+Georgia Tech	5.18205563936
+Gardner-Webb	5.04831502514
+Georgia Southern	4.86059909719
+Georgetown	5.62611542851
+George Mason	5.06745336787
+Grand Canyon	5.02440555272
+Grambling	4.64265005425
+American	4.55353172533

@@ -1,0 +1,19 @@
+The average for wins in season 1996 is 0.00418575089568 with 39 correct. Wrong is 0.00401523839615 with 24 wrong and a low of 0.0117866980252. correct percentage is 0.619047619048
+The average for wins in season 1997 is 0.00345930977166 with 39 correct. Wrong is 0.00358229413568 with 24 wrong and a low of 0.00886266357314. correct percentage is 0.619047619048
+The average for wins in season 1998 is 0.00383839870828 with 37 correct. Wrong is 0.00333062581257 with 26 wrong and a low of 0.011156078252. correct percentage is 0.587301587302
+The average for wins in season 1999 is 0.00466356630931 with 40 correct. Wrong is 0.00443549645145 with 23 wrong and a low of 0.00997475847651. correct percentage is 0.634920634921
+The average for wins in season 2000 is 0.00486723088008 with 42 correct. Wrong is 0.00375486222323 with 21 wrong and a low of 0.0112161921812. correct percentage is 0.666666666667
+The average for wins in season 2001 is 0.0048719165482 with 40 correct. Wrong is 0.00305453639679 with 24 wrong and a low of 0.00983681678205. correct percentage is 0.625
+The average for wins in season 2002 is 0.00440226992913 with 42 correct. Wrong is 0.00279250564902 with 22 wrong and a low of 0.0068314799872. correct percentage is 0.65625
+The average for wins in season 2003 is 0.00492577636998 with 43 correct. Wrong is 0.00281036508765 with 21 wrong and a low of 0.00742366612321. correct percentage is 0.671875
+The average for wins in season 2004 is 0.00422014334626 with 40 correct. Wrong is 0.00376049248527 with 24 wrong and a low of 0.00974271867373. correct percentage is 0.625
+The average for wins in season 2005 is 0.00484747609728 with 40 correct. Wrong is 0.00313025608988 with 24 wrong and a low of 0.00855493733094. correct percentage is 0.625
+The average for wins in season 2006 is 0.00365961776729 with 38 correct. Wrong is 0.00329441403241 with 26 wrong and a low of 0.0101230672809. correct percentage is 0.59375
+The average for wins in season 2007 is 0.00404219530375 with 42 correct. Wrong is 0.00373160942695 with 22 wrong and a low of 0.00926098867177. correct percentage is 0.65625
+The average for wins in season 2008 is 0.00475366488511 with 44 correct. Wrong is 0.0051656732107 with 20 wrong and a low of 0.0112370574133. correct percentage is 0.6875
+The average for wins in season 2009 is 0.00465931173261 with 40 correct. Wrong is 0.00342856650537 with 24 wrong and a low of 0.00976525636023. correct percentage is 0.625
+The average for wins in season 2010 is 0.00515035010071 with 38 correct. Wrong is 0.00359508231593 with 26 wrong and a low of 0.00990925031092. correct percentage is 0.59375
+The average for wins in season 2011 is 0.00373911391885 with 45 correct. Wrong is 0.00281347756055 with 22 wrong and a low of 0.00918594901398. correct percentage is 0.671641791045
+The average for wins in season 2012 is 0.00439821783698 with 45 correct. Wrong is 0.00278521667874 with 22 wrong and a low of 0.0108804889487. correct percentage is 0.671641791045
+The average for wins in season 2013 is 0.0044835832569 with 42 correct. Wrong is 0.00221480399242 with 25 wrong and a low of 0.0079740574871. correct percentage is 0.626865671642
+Overal Correctness: 736
