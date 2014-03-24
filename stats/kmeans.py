@@ -11,7 +11,11 @@ for line in f:
   #pofloats
   arr.append(float(split[28][:len(split[28])-1]))
   #rebounds
-  arr.append(float(split[22]))
+  #arr.append(float(split[22]))
+  #oreb
+  arr.append(float(split[20]))
+  #dreb
+  arr.append(float(split[21]))
   #assists
   arr.append(float(split[23]))
   #steals
@@ -19,17 +23,31 @@ for line in f:
   #blocks
   arr.append(float(split[25]))
   #fgp
-  arr.append(float(split[12]))
+  #arr.append(float(split[12]))
   #ftp
-  arr.append(float(split[19]))
+  #arr.append(float(split[19]))
   #turnovers
   arr.append(float(split[26]))
+  #pfs
+  arr.append(float(split[27]))
+  #fgm
+  arr.append(float(split[10]))
+  #fga
+  arr.append(float(split[11]))
+  #ftm
+  arr.append(float(split[17]))
+  #fta
+  arr.append(float(split[18]))
+  #3pm
+  arr.append(float(split[13]))
+  #3pa
+  arr.append(float(split[14]))
   arrs.append(deepcopy(arr))
   arr = []
-  names.append(split[1])
-features = array(arrs)
-whitened = whiten(features)
-cores,_ = kmeans(whitened, 14)
+  names.append(split[1][:len(split[1])-1] + '-' + split[3])
+whitened = array(arrs) #used to be named features
+#whitened = whiten(features)
+cores,_ = kmeans(whitened, 14, 50)
 pGroups = []
 
 for i in range(len(whitened)):
@@ -45,3 +63,4 @@ for i in range(len(whitened)):
       minVal = v
       minGroup = j+1
   print names[i] + ' ' + str(minGroup)
+print cores
