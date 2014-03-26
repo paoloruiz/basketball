@@ -48,7 +48,7 @@ for line in f:
   names.append(split[1][:len(split[1])-1] + '-' + split[3])
 features = array(arrs) #used to be named features
 whitened = whiten(features)
-cores,_ = kmeans(whitened, 12, 50)
+cores,_ = kmeans(whitened, 13, 50)
 pGroups = []
 
 for i in range(len(whitened)):
