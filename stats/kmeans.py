@@ -2,7 +2,7 @@ import math
 from numpy import array
 from scipy.cluster.vq import kmeans, whiten
 from copy import deepcopy
-f = open('pgStats.txt', 'r')
+f = open('statline/2013perGameStats.txt', 'r')
 arrs = []
 arr = []
 names = []

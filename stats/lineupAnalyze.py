@@ -8,7 +8,7 @@ arr = []
 arrs = []
 names = []
 for year in range(2009, 2013):
-  f = open(str(year) + 'perGameStats.txt', 'r')
+  f = open('statline/' + str(year) + 'perGameStats.txt', 'r')
   for line in f:
     split = line.split('\t')
     #points
@@ -71,7 +71,7 @@ lineup = []
 lineupAvg = dict()
 lineupCount = dict()
 for year in range(2009, 2013):
-  g = open(str(year) + 'parsedlineups.txt', 'r')
+  g = open('lineup/' + str(year) + 'parsedlineups.txt', 'r')
   for line in g:
     st = line.split('\t')
     players = st[0].split(',')
