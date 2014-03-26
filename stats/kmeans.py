@@ -2,13 +2,14 @@ import math
 from numpy import array
 from scipy.cluster.vq import kmeans, whiten
 from copy import deepcopy
-f = open('2013perGameStats.txt', 'r')
+f = open('pgStats.txt', 'r')
 arrs = []
 arr = []
 names = []
+stats = ['points', 'o reb', 'd reb', 'assists', 'steals', 'blocks', 'turnovers', 'pfs', 'fgm', 'fga', 'ftm', 'fta', '3pm', '3pa']
 for line in f:
   split = line.split('\t')
-  #pofloats
+  #points
   arr.append(float(split[28][:len(split[28])-1]))
   #rebounds
   #arr.append(float(split[22]))
@@ -45,9 +46,9 @@ for line in f:
   arrs.append(deepcopy(arr))
   arr = []
   names.append(split[1][:len(split[1])-1] + '-' + split[3])
-whitened = array(arrs) #used to be named features
-#whitened = whiten(features)
-cores,_ = kmeans(whitened, 14, 50)
+features = array(arrs) #used to be named features
+whitened = whiten(features)
+cores,_ = kmeans(whitened, 12, 50)
 pGroups = []
 
 for i in range(len(whitened)):
@@ -64,3 +65,19 @@ for i in range(len(whitened)):
       minGroup = j+1
   print names[i] + ' ' + str(minGroup)
 print cores
+for d in range(len(cores[0])):
+  print ''
+  print ''
+  print stats[d]
+  mP = 0.0
+  for ars in cores:
+    if ars[d] > mP:
+      mP = ars[d]
+  poi = []
+  for ars in cores:
+    poi.append(int((ars[d]/mP)*100))
+  for m in range(100):
+    if m in poi:
+      print(str(poi.index(m)+1)),
+    else:
+      print(" "),
