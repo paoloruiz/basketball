@@ -18,7 +18,7 @@ Pau Gasol	2.7	2.0	4.7	9284.0
 Jason Kidd	2.1	2.4	4.5	11263.0
 Josh Smith	-0.6	5.0	4.4	11062.0
 Rasheed Wallace	0.1	4.3	4.4	8527.0
-Amare Stoudemire	3.4	0.9	4.3	10802.0
+Amar'e Stoudemire	3.4	0.9	4.3	10802.0
 Shawn Marion	0.4	3.9	4.2	9342.0
 Shaquille O'Neal	0.4	3.6	4.0	6734.0
 Metta World Peace	1.3	2.5	3.8	8627.0
@@ -309,7 +309,7 @@ Andre Brown	-0.8	-1.6	-2.4	1141.0
 Coby Karl	-1.2	-1.2	-2.4	301.0
 Charlie Bell	-0.7	-1.8	-2.4	6239.0
 Darius Washington	-0.7	-1.7	-2.4	580.0
-Marcus WilliamsMarcus Williams	-0.7	-1.7	-2.5	6.0
+Marcus Williams	-0.7	-1.7	-2.5	6.0
 Shawne Williams	-0.8	-1.7	-2.5	3984.0
 Juan Dixon	-0.7	-1.8	-2.5	2549.0
 Michael Finley	-0.2	-2.3	-2.5	8106.0
@@ -402,7 +402,7 @@ Bobby Simmons	-2.1	-1.3	-3.4	5785.0
 Eric Snow	-3.5	0.0	-3.5	1155.0
 Aaron Brooks	-0.3	-3.1	-3.5	2247.0
 Kareem Rush	-1.5	-2.0	-3.5	6124.0
-Marcus WilliamsMarcus Williams	-0.8	-2.7	-3.5	3262.0
+Marcus Williams	-0.8	-2.7	-3.5	3262.0
 Shannon Brown	-1.5	-2.0	-3.5	892.0
 Hilton Armstrong	-3.3	-0.2	-3.5	2733.0
 Aaron Williams	-2.7	-0.8	-3.5	1272.0

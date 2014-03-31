@@ -55,7 +55,7 @@ Chauncey Billups	3.7	-1.6	2.1	9123.0
 Al Horford	0.7	1.4	2.1	10018.0
 Shane Battier	0.3	1.7	2.0	9339.0
 Stephen Curry	2.8	-0.8	2.0	9973.0
-Amare Stoudemire	2.3	-0.4	1.9	11435.0
+Amar'e Stoudemire	2.3	-0.4	1.9	11435.0
 Carmelo Anthony	2.7	-0.8	1.9	10904.0
 Omer Asik	-1.1	2.8	1.7	3711.0
 Anderson Varejao	-0.6	2.3	1.7	3829.0

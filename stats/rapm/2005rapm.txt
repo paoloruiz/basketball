@@ -14,7 +14,7 @@ Baron Davis	6.3	-0.9	5.4	5896.0
 Paul Pierce	2.9	1.9	4.9	11080.0
 Steve Nash	6.8	-2.0	4.8	10073.0
 Shawn Marion	2.3	2.3	4.7	12350.0
-Amare Stoudemire	3.3	1.2	4.5	11252.0
+Amar'e Stoudemire	3.3	1.2	4.5	11252.0
 LeBron James	4.0	0.4	4.4	12104.0
 Marcus Camby	-1.2	5.5	4.4	7433.0
 Kobe Bryant	4.9	-0.7	4.2	9941.0

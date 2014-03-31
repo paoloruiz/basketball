@@ -11,7 +11,7 @@ for line in f:
   if m[1] in pl:
     continue
   pl.add(m[1])
-  g.write(line.replace('\t\t', '\t0.0\t'))
+  g.write(line.replace('\t\t', '\t0.0\t').replace('*', ''))
 f.close()
 g.close()
 shutil.copyfile(str(sys.argv[1]) + 'copy.txt', str(sys.argv[1]) + 'perGameStats.txt')
