@@ -12,7 +12,6 @@ for year in range(2001, 2014):
     m = line.split('\t')
     rapm[m[0].strip() + str(year)] = float(m[3])
   f.close()
-
  
 arr = []
 arrs = []
@@ -59,6 +58,9 @@ for year in range(2001, 2014):
     arr = []
     names.append(split[1][:len(split[1])-1] + str(year))# + '-' + split[3])
   f.close()
+
+yearTransitions = dict()
+
 whitened = whiten(array(arrs))
 cores,_ = kmeans(whitened, 13, 100)
 playerGroups = dict()
@@ -74,8 +76,37 @@ for i in range(len(whitened)):
     if minVal > v:
       minVal = v
       minGroup = j+1
-  #print names[i] + '  ' + str(minGroup)
+  print names[i] + '  ' + str(minGroup)
   playerGroups[names[i]] = minGroup
+  if names[i][len(names[i])-4:] in yearTransitions:
+    year = yearTransitions[names[i][len(names[i])-4:]]
+    player = minGroup
+    year[names[i][:len(names[i])-4]] = player
+    yearTransitions[names[i][len(names[i])-4:]] = deepcopy(year)
+  else:
+    year = dict()
+    player = minGroup
+    year[names[i][:len(names[i])-4]] = player
+    yearTransitions[names[i][len(names[i])-4:]] = deepcopy(year)
+trans = [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+for year in range(2001, 2013):
+  origGroup = yearTransitions[str(year)]
+  nextGroup = yearTransitions[str(year+1)]
+  for player in origGroup:
+    if player in nextGroup:
+      gro = trans[origGroup[player]]
+      gro.append(nextGroup[player])
+      trans[origGroup[player]] = deepcopy(gro)
+for transition in range(len(trans)):
+  statTrans = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  for cat in trans[transition]:
+    statTrans[cat] += 1
+  print 'Transitions for group ' + str(transition)
+  for sta in range(len(statTrans)):
+    if float(statTrans[sta]) != 0:
+      print str(transition) + ' -> ' + str(sta) + ':\t' + str((100.0*float(statTrans[sta]))/sum(statTrans))
+  print
+
 f.close()
 lineup = []
 lineupAvg = dict()
@@ -124,10 +155,19 @@ print 'Our formula is ' + str(slope) + ' * x + ' + str(intercept)
 print 'Rapm r squared is ' + str(r_value*r_value)
 print 'R is ' + str(r_value)
 print 'Std err: ' + str(std_err)
+print
+
+minCount = 0
+if len(sys.argv) > 1:
+  minCount = int(sys.argv[1])
+
+maxCount = 100
+if len(sys.argv) > 2:
+  maxCount = int(sys.argv[2])
 
 parsedLineups = dict()
 for work in lineupCount:
-  if lineupCount[work] > 1:
+  if lineupCount[work] > minCount and lineupCount[work] < maxCount:
     parsedLineups[work] = lineupAvg[work] - (slope*lineupRapm[work]/lineupCount[work] + intercept)
 
 #for work in parsedLineups:
@@ -139,6 +179,7 @@ plusMinus = []
 for year in range(2001, 2014):
   g = open('lineup/' + str(year) + 'lineups.txt', 'r')
   for line in g:
+    lineup = []
     st = line.split('\t')
     if float(st[5]) < 200.0:
       continue
@@ -149,6 +190,8 @@ for year in range(2001, 2014):
       rap += rapm[playa + str(year)]
       lineup.append(playerGroups[playa + str(year)])
     lineup.sort()
+    if lineupCount[str(lineup)] <= minCount or lineupCount[str(lineup)] >= maxCount:
+      continue
     if str(lineup) in parsedLineups:
       adjLine.append((slope*rap + intercept) + parsedLineups[str(lineup)])
       plusMinus.append(float(st[19].replace('\n', '')))
