@@ -4,13 +4,13 @@ from season import Season
 from nbaplayer import NbaPlayer
 from score import Score
 firstYear = 1990
-lastYear = 2012
+lastYear = 2013
 lastSeason = []
 players = []
 all_seasons_by_age = dict()
 for year in range(firstYear, lastYear+1):
   se = Season()
-  sortedPlayers = se.calcSeason('season/' + str(year) + 'Stats.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11)
+  sortedPlayers = se.calcSeason('season/' + str(year) + 'Stats.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11, 7)
   for pa in sortedPlayers:
     ses = pa.getSeason(year)
     hold = dict()
@@ -25,10 +25,15 @@ for year in range(firstYear, lastYear+1):
     else:
       players.append(pa)
 
-lastSeason = se.calcSeason('season/lastStats.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11)
+lastSeason = se.calcSeason('season/lastStats.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11, 7)
 
 n = open('season/nextSeason.txt', 'w')
 for pa in lastSeason:
+  #skip if they played less than 5 minutes per game last season
+  if pa.getSeason(lastYear).mp < 10.0:
+    print "Skipping " + pa.getSeason(lastYear).name
+    continue
+
   similar_seasons_se = dict()
   similar_seasons_pa = dict()
   se = pa.getSeason(lastYear)
@@ -39,7 +44,7 @@ for pa in lastSeason:
   closeAge = dict()
   if int(se.age) in all_seasons_by_age:
     closeAge = all_seasons_by_age[int(se.age)]
-  closeAgeOld = ()
+  closeAgeOld = dict()
   if int(se.age)+1 in all_seasons_by_age:
     closeAgeOld = all_seasons_by_age[int(se.age)+1]
   temp = dict(closeAgeYoung , **closeAge)
@@ -111,5 +116,5 @@ for pa in lastSeason:
   mult[6] = mult[6]/le
   mult[7] = mult[7]/le
   mult[8] = mult[8]/le
-  n.write(se.name + "\t" + str(se.points+mult[0]) + "\t" + str(se.assists+mult[1]) + "\t" + str(se.rebounds+mult[2]) + "\t" + str(se.steals+mult[3]) + "\t" + str(se.blocks+mult[4]) + "\t" + str(se.turnovers+mult[5]) + "\t" + str(se.fgp+mult[6]) + "\t" + str(se.ftp+mult[7]) + "\t" + str(se.tpm+mult[8]) + "\n")
+  n.write(se.name + "\t" + str(se.points+mult[0]) + "\t" + str(se.assists+mult[1]) + "\t" + str(se.rebounds+mult[2]) + "\t" + str(se.steals+mult[3]) + "\t" + str(se.blocks+mult[4]) + "\t" + str(se.turnovers+mult[5]) + "\t" + str(se.fgp+mult[6]) + "\t" + str(se.ftp+mult[7]) + "\t" + str(se.tpm+mult[8]) + "\t" + str(pa.position) + "\n")
 n.close()

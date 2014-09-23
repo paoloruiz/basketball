@@ -4,7 +4,7 @@ import math
 from itertools import izip
 from nbaplayer import NbaPlayer
 class Season:
-  def __init__(self, age = None, year = None, name = None, position = None, point = None, assist = None, rebound = None, steal = None, block = None, turnover = None, fg = None, ft = None, tp = None):
+  def __init__(self, age = None, year = None, name = None, position = None, point = None, assist = None, rebound = None, steal = None, block = None, turnover = None, fg = None, ft = None, tp = None, mp = None):
     if age is None:
       return
     self.age = age
@@ -20,6 +20,7 @@ class Season:
     self.fgp = fg
     self.ftp = ft
     self.tpm = tp
+    self.mp = mp
     self.scores = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
   def calcZ(self, apoint, stdp, aassist, stda, arebound, stdr, asteal, stds, ablock, stdb, aturnover, stdt, afgp, stdfg, aftp, stdft, atpm, stdtp):
@@ -63,7 +64,7 @@ class Season:
       return 0
 
   def __str__(self):
-    return str(self.age) + str(self.year) + str(self.name) + str(self.positions) + str(self.points) + str(self.assists) + str(self.rebounds) + str(self.steals) + str(self.blocks) + str(self.turnovers) + str(self.fgp) + str(self.ftp) + str(self.tpm)
+    return str(self.age) + str(self.year) + str(self.name) + str(self.positions) + str(self.points) + str(self.assists) + str(self.rebounds) + str(self.steals) + str(self.blocks) + str(self.turnovers) + str(self.fgp) + str(self.ftp) + str(self.tpm) + str(self.mp)
 
   def __hash__(self):
     return (hash(str(self)))
@@ -92,7 +93,7 @@ class Season:
       return 1.0
     return prod/(len1*len2)
 
-  def calcSeason(self, filName, year, a, b, c, d, e, f, g, h, i, j, k, l):
+  def calcSeason(self, filName, year, a, b, c, d, e, f, g, h, i, j, k, l, m):
     fil = open(filName, 'r')
     players = []
     points = 0.0
@@ -104,12 +105,13 @@ class Season:
     fg = 0.0
     ft = 0.0
     tp = 0.0
+    mp = 0.0
     plNum = 0
     for line in fil:
       #player - name position year season
       sea = line.split('\t');
-      #season - age, year, name, position, point, assist, rebound, steal, block, turnover, fg, ft, tp
-      season = Season(sea[a], year, sea[b], str(sea[c]), float(sea[d]), float(sea[e]), float(sea[f]), float(sea[g]), float(sea[h]), float(sea[i]), float(sea[j]), float(sea[k]), float(sea[l]))
+      #season - age, year, name, position, point, assist, rebound, steal, block, turnover, fg, ft, tp, mp
+      season = Season(sea[a], year, sea[b], str(sea[c]), float(sea[d]), float(sea[e]), float(sea[f]), float(sea[g]), float(sea[h]), float(sea[i]), float(sea[j]), float(sea[k]), float(sea[l]), float(sea[m]))
       points += float(sea[d])
       assists += float(sea[e])
       rebounds += float(sea[f])
@@ -119,6 +121,7 @@ class Season:
       fg += float(sea[j])
       ft += float(sea[k])
       tp += float(sea[l])
+      mp += float(sea[m])
       season.calcZ(1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0)
       player = NbaPlayer(sea[b], sea[c], year, season)
       players.append(player);

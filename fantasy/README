@@ -6,6 +6,9 @@ rank player position age team games games started minutes played fg fga fgp 3p 3
 A good way to look for trades is to use the single season to calculate in season stats, then use calcSeason with teams filled out for everyone
 
 single season- calculates scores by adding z scores and multiplying times the weighting in the file. need to change year in the file to change
+
 pre parse season - needs to be called when a new season is added to make it look nice, put in year to parse
-calc season - calculate the z score above average totals for players and for overall team - note: josh is not at full strength, crystal is not at full strength
+
+calc season - calculate the z score above average totals for players and for overall team
+
 parse seasons - predict the stats for next season. currently tries to use years 1990 to 2013, order is name, points, assists, rebounds, steals, block, rebounds, tos, fg, ft, tp
