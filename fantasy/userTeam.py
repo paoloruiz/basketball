@@ -1,4 +1,5 @@
 import operator
+from draftRanks import DraftRanks
 class UserTeam:
   def __init__(self, name):
     self.name = name
@@ -15,9 +16,9 @@ class UserTeam:
     print self.name
     print str(self.scores[0] / goalScores[0]) + '\t' + str(self.scores[1] / goalScores[1]) + '\t' + str(self.scores[2] / goalScores[2]) + '\t' + str(self.scores[3] / goalScores[3]) + '\t' + str(self.scores[4] / goalScores[4]) + '\t' + str(self.scores[5] / goalScores[5]) + '\t' + str(self.scores[6] / goalScores[6]) + '\t' + str(self.scores[7] / goalScores[7]) + '\t' + str(self.scores[8] / goalScores[8])
 
-  def getDesirabilities(self, players):
+  def getDesirabilities(self, players, mods):
     dr = DraftRanks()
     desirabilities = {}
     for player in players:
-      desirabilities[player.name] = dr.getDesirability(self.scores, player.getScores())
+      desirabilities[player] = dr.calcDesirability(self.scores, players[player].getScores(), mods)
     return sorted(desirabilities.items(), key=operator.itemgetter(1), reverse=True)
