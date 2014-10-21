@@ -7,7 +7,9 @@ from otherDraft import OtherDraft
 from userTeam import UserTeam
 def printStats():
   elynn.printScores()
+  print
   michael.printScores()
+  print
   paolo.printScores()
 
 def printDesired(players):
