@@ -41,7 +41,7 @@ def printDesired(players):
 dr = DraftRanks()
 year = 2013
 se = Season()
-sortedPlayers = se.calcSeason('season/thisStats.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11, 7)
+sortedPlayers = se.calcSeason('season/thisStats2.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11, 7)
 players = {}
 #Set up the stats for calculating when a stat is low
 #turn these into arrays
