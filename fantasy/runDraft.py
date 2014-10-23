@@ -14,7 +14,7 @@ def printStats():
 
 def printDesired(players):
   print 'Desired players'
-  numPlayersLeft = 14 - len(paolo.players)
+  numPlayersLeft = 13 - len(paolo.players)
   #Use arrays!
   goalScores = [15.837, 14.064, 17.998, 17.37, 13.207, -7.423, 5.507, 6.588, 13.611]
   avgScores = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
