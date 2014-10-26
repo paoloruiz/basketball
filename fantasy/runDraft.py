@@ -6,11 +6,30 @@ from season import Season
 from otherDraft import OtherDraft
 from userTeam import UserTeam
 def printStats():
+  print
+  print
+  print
+  print
   elynn.printScores()
   print
   michael.printScores()
   print
+  josh.printScores()
+  print
+  john.printScores()
+  print
+  alex.printScores()
+  print
+  vicki.printScores()
+  print
+  tomas.printScores()
+  print
+  dan.printScores()
+  print
+  irvin.printScores()
+  print
   paolo.printScores()
+  print
 
 def printDesired(players):
   print 'Desired players'
@@ -145,6 +164,13 @@ tpmAvg = tpmAvg / tpmNum
 
 elynn = OtherDraft('elynn')
 michael = OtherDraft('michael')
+josh = OtherDraft('josh')
+john = OtherDraft('john')
+alex = OtherDraft('alex')
+vicki = OtherDraft('vicki')
+tomas = OtherDraft('tomas')
+dan = OtherDraft('dan')
+irvin = OtherDraft('irvin')
 paolo = UserTeam('paolo')
 
 printDesired(players)
@@ -160,6 +186,20 @@ while (True):
       elynn.addPlayer(line[1], players[line[1]].scores)
     if 'michael' in inp:
       michael.addPlayer(line[1], players[line[1]].scores)
+    if 'josh' in inp:
+      josh.addPlayer(line[1], players[line[1]].scores)
+    if 'john' in inp:
+      john.addPlayer(line[1], players[line[1]].scores)
+    if 'alex' in inp:
+      alex.addPlayer(line[1], players[line[1]].scores)
+    if 'vicki' in inp:
+      vicki.addPlayer(line[1], players[line[1]].scores)
+    if 'tomas' in inp:
+      tomas.addPlayer(line[1], players[line[1]].scores)
+    if 'dan' in inp:
+      dan.addPlayer(line[1], players[line[1]].scores)
+    if 'irvin' in inp:
+      irvin.addPlayer(line[1], players[line[1]].scores)
     if 'paolo' in inp:
       paolo.addPlayer(line[1], players[line[1]].scores)
     printStats()

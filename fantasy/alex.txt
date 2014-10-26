@@ -1,13 +1,13 @@
-Dwyane Wade 	 4.7687939698 5.27224656031
-Tiago Splitter 	 -0.793287715711 0.199390234102
-Ersan Ilyasova 	 1.69978268501 1.20437761796
-Manu Ginobili 	2.97554575216 2.69455347365
-Wilson Chandler 	 1.53190047735 1.73160776869
-Anthony Davis 	 2.8468686581 12.9102964762
-Patrick Beverley 	 1.76220103106 2.30396810718
-Kemba Walker 	 3.16638859555 3.88820920428
-Brook Lopez 	 -1.06772364827 6.25655817411
-Ryan Anderson 	 0.572057112749 3.92745256717
-Jared Sullinger 	0.255319966515 1.39080687745
-Martell Webster 	1.84018191929 3.06781469254
-Isaiah Thomas 	 2.62363871638 2.57330740238
+Damian Lillard 	
+Tyreke Evans 	
+Michael Carter-Williams 	
+Thaddeus Young 	
+DeMarcus Cousins 	
+Dirk Nowitzki 	
+Tim Duncan 	
+Markieff Morris 	
+Ricky Rubio 	
+Goran Dragic 	
+Isaiah Thomas 	
+Jordan Hill 	
+Darren Collison 	

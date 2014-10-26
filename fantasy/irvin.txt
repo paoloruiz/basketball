@@ -1,13 +1,13 @@
-Russell Westbrook 	4.15885465099 2.54113779118
-Tyson Chandler 	0.752844665076 5.72983787509
-Joe Johnson 	2.29517739111 3.1822443005
-Brandon Bass 	-1.15885512691 1.59081100752
-Lance Stephenson 	3.378472693 2.68698707509
-James Anderson 	1.52842921067 2.12064342905
-DeMarcus Cousins 	2.7824423046 5.46446784658
-Corey Brewer 	1.88925397463 2.42926233339
-Nene Hilario 	0.831865176509 2.9279919424
-Derrick Favors 	1.88138497672 4.35303755692
-Carmelo Anthony 	3.68605001545 4.96254697382
-Jose Calderon 	3.22082254188 2.83529291924
-Danny Green 	1.411004843 3.10506267502
+Chris Paul 	
+Lance Stephenson 	
+Jeff Teague 	
+Terrence Jones 	
+Serge Ibaka 	
+Blake Griffin 	
+David Lee 	
+Marcin Gortat 	
+Tony Parker 	
+George Hill 	
+Reggie Jackson 	
+Zach Randolph 	
+Nikola Pekovic 	

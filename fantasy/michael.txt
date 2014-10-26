@@ -1,13 +1,13 @@
-Michael Carter-Williams 	7.76042623217 8.33570132424
-Rodney Stuckey 	0.649705744692 1.42245690837
-Paul Millsap 	3.15843746936 5.35081101568
-Zach Randolph 	0.554822203431 0.627860414947
-Trevor Ariza 	4.04532281739 3.15209045837
-DeAndre Jordan 	1.83658351112 5.63971260182
-Steve Blake 	4.6870546201 3.63932373648
-Carlos Boozer 	0.35051964314 1.06179840446
-Miles Plumlee 	-0.664972668871 3.10935491254
-Joakim Noah 	2.26447326179 3.240680257
-Kevin Durant 	4.65983141473 5.92684043523
-Jeff Teague 	4.85191324628 3.84651140421
-Monta Ellis 	3.99101262666 3.53189482639
+Jrue Holiday 	
+Nicolas Batum 	
+Rajon Rondo 	
+Kevin Martin 	
+Al Jefferson 	
+Chris Bosh 	
+Andre Drummond 	
+Marc Gasol 	
+Spencer Hawes 	
+Mario Chalmers 	
+Brandon Jennings 	
+Giannis Antetokounmpo 	
+Draymond Green 	
