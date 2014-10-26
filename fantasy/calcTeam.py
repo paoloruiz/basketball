@@ -17,8 +17,8 @@ ovturnovers = 0.0
 ovfgp = 0.0
 ovftp = 0.0
 ovtpm = 0.0
-f = open(sys.argv[1] + '.txt', 'r')
-ou = open(sys.argv[1] + 'Stats.txt', 'w')
+f = open('input/' + sys.argv[1] + '.txt', 'r')
+ou = open('output/' + sys.argv[1] + 'Stats.txt', 'w')
 for line in f:
   p = NbaPlayer(line.split('\t')[0], "ATH", year, None)
   print line
