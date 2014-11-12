@@ -10,30 +10,30 @@ def printStats():
   print
   print
   print
-  elynn.printScores()
+  action.printScores()
   print
-  michael.printScores()
+  swag.printScores()
   print
-  josh.printScores()
+  atlanta.printScores()
   print
-  john.printScores()
+  bakers.printScores()
   print
-  alex.printScores()
+  nils.printScores()
   print
-  vicki.printScores()
+  wroten.printScores()
   print
-  tomas.printScores()
+  hard.printScores()
   print
-  dan.printScores()
+  micoro.printScores()
   print
-  irvin.printScores()
+  unagi.printScores()
   print
   paolo.printScores()
   print
 
 def printDesired(players):
   print 'Desired players'
-  numPlayersLeft = 13 - len(paolo.players)
+  numPlayersLeft = 15 - len(paolo.players)
   #Use arrays!
   goalScores = [15.837, 14.064, 17.998, 17.37, 13.207, -7.423, 5.507, 6.588, 13.611]
   avgScores = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
@@ -162,15 +162,17 @@ fgpAvg = fgpAvg / fgpNum
 ftpAvg = ftpAvg / ftpNum
 tpmAvg = tpmAvg / tpmNum
 
-elynn = OtherDraft('elynn')
-michael = OtherDraft('michael')
-josh = OtherDraft('josh')
-john = OtherDraft('john')
-alex = OtherDraft('alex')
-vicki = OtherDraft('vicki')
-tomas = OtherDraft('tomas')
-dan = OtherDraft('dan')
-irvin = OtherDraft('irvin')
+action = OtherDraft('action')
+swag = OtherDraft('swag')
+atlanta = OtherDraft('atlanta')
+bakers = OtherDraft('bakers')
+nils = OtherDraft('nils')
+wroten = OtherDraft('wroten')
+hard = OtherDraft('hard')
+micoro = OtherDraft('micoro')
+unagi = OtherDraft('unagi')
+money = OtherDraft('money')
+comp = OtherDraft('comp')
 paolo = UserTeam('paolo')
 
 printDesired(players)
@@ -182,24 +184,28 @@ while (True):
     if line[1] not in players:
       print 'Bad input'
       continue
-    if 'elynn' in inp:
-      elynn.addPlayer(line[1], players[line[1]].scores)
-    if 'michael' in inp:
-      michael.addPlayer(line[1], players[line[1]].scores)
-    if 'josh' in inp:
-      josh.addPlayer(line[1], players[line[1]].scores)
-    if 'john' in inp:
-      john.addPlayer(line[1], players[line[1]].scores)
-    if 'alex' in inp:
-      alex.addPlayer(line[1], players[line[1]].scores)
-    if 'vicki' in inp:
-      vicki.addPlayer(line[1], players[line[1]].scores)
-    if 'tomas' in inp:
-      tomas.addPlayer(line[1], players[line[1]].scores)
-    if 'dan' in inp:
-      dan.addPlayer(line[1], players[line[1]].scores)
-    if 'irvin' in inp:
-      irvin.addPlayer(line[1], players[line[1]].scores)
+    if 'action' in inp:
+      action.addPlayer(line[1], players[line[1]].scores)
+    if 'swag' in inp:
+      swag.addPlayer(line[1], players[line[1]].scores)
+    if 'atlanta' in inp:
+      atlanta.addPlayer(line[1], players[line[1]].scores)
+    if 'bakers' in inp:
+      bakers.addPlayer(line[1], players[line[1]].scores)
+    if 'nils' in inp:
+      nils.addPlayer(line[1], players[line[1]].scores)
+    if 'wroten' in inp:
+      wroten.addPlayer(line[1], players[line[1]].scores)
+    if 'hard' in inp:
+      hard.addPlayer(line[1], players[line[1]].scores)
+    if 'micoro' in inp:
+      micoro.addPlayer(line[1], players[line[1]].scores)
+    if 'unagi' in inp:
+      unagi.addPlayer(line[1], players[line[1]].scores)
+    if 'money' in inp:
+      money.addPlayer(line[1], players[line[1]].scores)
+    if 'comp' in inp:
+      comp.addPlayer(line[1], players[line[1]].scores)
     if 'paolo' in inp:
       paolo.addPlayer(line[1], players[line[1]].scores)
     printStats()
