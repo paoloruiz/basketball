@@ -1,0 +1,699 @@
+	Nov 20, 06:30 PM	North Carolina	@ Duke	45 : 20	
+	Nov 20, 06:00 PM	Kansas State	@ West Virginia	26 : 20	
+	Nov 19, 07:00 PM	Bowling Green	@ Toledo	20 : 27	
+	Nov 18, 07:00 PM	Northern Illinois	@ Ohio	21 : 14	
+	Nov 18, 06:00 PM	Massachusetts	@ Akron	6 : 30	
+	Nov 15, 09:45 PM	Arizona State	@ Oregon State	27 : 35	
+	Nov 15, 09:15 PM	San Diego State	@ Boise State	29 : 38	
+	Nov 15, 09:00 PM	North Texas	@ UTEP	17 : 35	
+	Nov 15, 07:00 PM	Florida State	@ Miami (FL)	30 : 26	
+	Nov 15, 07:00 PM	LSU	@ Arkansas	0 : 17	
+	Nov 15, 07:00 PM	Michigan State	@ Maryland	37 : 15	
+	Nov 15, 07:00 PM	South Florida	@ Southern Methodist	14 : 13	
+	Nov 15, 06:30 PM	Missouri	@ Texas A&M	34 : 27	
+	Nov 15, 06:30 PM	Texas	@ Oklahoma State	28 : 7	
+	Nov 15, 06:30 PM	Texas State Bobcats	@ South Alabama	20 : 24	
+	Nov 15, 06:15 PM	Auburn	@ Georgia	7 : 34	
+	Nov 15, 06:00 PM	Louisiana-Lafayette	@ Louisiana-Monroe	34 : 27	
+	Nov 15, 06:00 PM	UNLV Rebels	@ Brigham Young	23 : 42	
+	Nov 15, 05:00 PM	Utah	@ Stanford	20 : 17
+	Nov 15, 04:00 PM	Troy	@ Idaho	34 : 17	
+	Nov 15, 03:30 PM	Hawaii	@ San Jose State	13 : 0	
+	Nov 15, 03:00 PM	Kentucky	@ Tennessee	16 : 50	
+	Nov 15, 03:00 PM	New Mexico	@ Utah State	21 : 28	
+	Nov 15, 02:30 PM	Georgia Southern	@ Navy	19 : 52	
+	Nov 15, 02:30 PM	Indiana	@ Rutgers	23 : 45	
+	Nov 15, 02:30 PM	Memphis	@ Tulane	38 : 7	
+	Nov 15, 02:30 PM	Middle Tennessee St	@ FIU	28 : 38	
+	Nov 15, 02:30 PM	Mississippi St.	@ Alabama	20 : 25	
+	Nov 15, 02:30 PM	Nebraska	@ Wisconsin	24 : 59	
+	Nov 15, 02:30 PM	Northwestern	@ Notre Dame	43 : 40
+	Nov 15, 02:30 PM	Oklahoma	@ Texas Tech	42 : 30	
+	Nov 15, 02:30 PM	Washington Huskies	@ Arizona	26 : 27	
+	Nov 15, 02:00 PM	Appalachian State	@ Arkansas State	37 : 32	
+	Nov 15, 02:00 PM	TCU	@ Kansas	34 : 30	
+	Nov 15, 02:00 PM	Wake Forest	@ North Carolina State	13 : 42	
+	Nov 15, 01:30 PM	Rice	@ Marshall	14 : 41	
+	Nov 15, 01:00 PM	Eastern Michigan	@ Western Michigan	7 : 51	
+	Nov 15, 01:00 PM	Nevada	@ Air Force	38 : 45
+	Nov 15, 12:00 PM	Miami (Oh)	@ Central Michigan	27 : 34	
+	Nov 15, 11:30 AM	Pittsburgh	@ North Carolina	35 : 40	
+	Nov 15, 11:00 AM	Army	@ Western Kentucky	24 : 52	
+	Nov 15, 11:00 AM	Clemson	@ Georgia Tech	6 : 28	
+	Nov 15, 11:00 AM	Iowa	@ Illinois	30 : 14	
+	Nov 15, 11:00 AM	Ohio State	@ Minnesota	31 : 24	
+	Nov 15, 11:00 AM	South Carolina	@ Florida	23 : 20
+	Nov 15, 11:00 AM	Temple	@ Penn State	13 : 30	
+	Nov 15, 11:00 AM	Virginia Tech	@ Duke	17 : 16	
+	Nov 14, 07:00 PM	Tulsa	@ UCF	7 : 31	
+	Nov 13, 08:00 PM	California	@ USC	30 : 38	
+	Nov 13, 07:00 PM	Southern Miss	@ UTSA	10 : 12	
+	Nov 13, 06:00 PM	East Carolina	@ Cincinnati	46 : 54	
+	Nov 12, 07:00 PM	Ball State	@ Massachusetts	10 : 24	
+	Nov 12, 07:00 PM	Kent State	@ Bowling Green	20 : 30	
+	Nov 11, 07:00 PM	Akron	@ Buffalo	24 : 55	
+	Nov 11, 07:00 PM	Toledo	@ Northern Illinois	24 : 27	
+	Nov 08, 09:30 PM	San Jose State	@ Fresno State	24 : 38	
+	Nov 08, 09:00 PM	Oregon	@ Utah	51 : 27	
+	Nov 08, 07:00 PM	Alabama	@ LSU	20 : 13
+	Nov 08, 07:00 PM	Colorado Buffaloes	@ Arizona	20 : 38	
+	Nov 08, 07:00 PM	Louisiana-Lafayette	@ New Mexico State	44 : 16	
+	Nov 08, 07:00 PM	Ohio State	@ Michigan State	49 : 37	
+	Nov 08, 06:30 PM	Florida	@ Vanderbilt	34 : 10	
+	Nov 08, 06:30 PM	Kansas State	@ TCU	20 : 41	
+	Nov 08, 06:15 PM	Louisville	@ Boston College	38 : 19	
+	Nov 08, 06:00 PM	Boise State	@ New Mexico	60 : 49	
+	Nov 08, 06:00 PM	Florida Atlantic	@ North Texas	10 : 31	
+	Nov 08, 06:00 PM	Hawaii	@ Colorado State Rams	22 : 49	
+	Nov 08, 06:00 PM	Marshall	@ Southern Miss	63 : 17	
+	Nov 08, 06:00 PM	UCLA	@ Washington Huskies	44 : 30	
+	Nov 08, 05:30 PM	Idaho	@ San Diego State	21 : 35	
+	Nov 08, 05:30 PM	Virginia	@ Florida State	20 : 34	
+	Nov 08, 03:00 PM	Air Force	@ UNLV Rebels	48 : 21	
+	Nov 08, 03:00 PM	Georgia Southern	@ Texas State Bobcats	28 : 25	
+	Nov 08, 03:00 PM	Tennessee-Martin	@ Mississippi St.	16 : 45	
+	Nov 08, 03:00 PM	UTEP	@ Western Kentucky	27 : 35	
+	Nov 08, 03:00 PM	Washington State	@ Oregon State	39 : 32	
+	Nov 08, 02:30 PM	Connecticut	@ Army	21 : 35	
+	Nov 08, 02:30 PM	FIU	@ Old D.	35 : 38	
+	Nov 08, 02:30 PM	Iowa State	@ Kansas	14 : 34	
+	Nov 08, 02:30 PM	Louisiana-Monroe	@ Appalachian State	29 : 31	
+	Nov 08, 02:30 PM	Michigan	@ Northwestern	10 : 9	
+	Nov 08, 02:30 PM	Notre Dame	@ Arizona State	31 : 55	
+	Nov 08, 02:30 PM	Texas A&M	@ Auburn	41 : 38	
+	Nov 08, 02:30 PM	Tulane	@ Houston	31 : 24	
+	Nov 08, 02:30 PM	West Virginia	@ Texas	16 : 33	
+	Nov 08, 02:00 PM	Georgia State Panthers	@ Troy	21 : 45	
+	Nov 08, 02:00 PM	South Alabama	@ Arkansas State	10 : 45	
+	Nov 08, 11:30 AM	Duke	@ Syracuse	27 : 10	
+	Nov 08, 11:30 AM	Georgia Tech	@ North Carolina State	56 : 23	
+	Nov 08, 11:00 AM	Baylor	@ Oklahoma	48 : 14	
+	Nov 08, 11:00 AM	Georgia	@ Kentucky	63 : 31	
+	Nov 08, 11:00 AM	Iowa	@ Minnesota	14 : 51	
+	Nov 08, 11:00 AM	Louisiana Tech	@ UAB	40 : 24	
+	Nov 08, 11:00 AM	Penn State	@ Indiana	13 : 7	
+	Nov 08, 11:00 AM	Presbyterian	@ Mississippi	0 : 48	
+	Nov 08, 11:00 AM	Southern Methodist	@ Tulsa	28 : 38	
+	Nov 08, 11:00 AM	UTSA	@ Rice	7 : 17	
+	Nov 08, 11:00 AM	Wisconsin	@ Purdue	34 : 16	
+	Nov 07, 07:00 PM	Utah State	@ Wyoming	20 : 3	
+	Nov 07, 06:30 PM	Memphis	@ Temple	16 : 13	
+	Nov 06, 06:30 PM	Clemson	@ Wake Forest	34 : 20	
+	Nov 05, 07:00 PM	Buffalo	@ Ohio	14 : 37	
+	Nov 05, 07:00 PM	Northern Illinois	@ Ball State	35 : 21	
+	Nov 04, 07:00 PM	Bowling Green	@ Akron	27 : 10	
+	Nov 04, 07:00 PM	Toledo	@ Kent State	30 : 20	
+	Nov 01, 10:00 PM	Utah	@ Arizona State	16 : 19
+	Nov 01, 10:00 PM	Utah State	@ Hawaii	35 : 14	
+	Nov 01, 09:45 PM	Wyoming	@ Fresno State	45 : 17	
+	Nov 01, 09:30 PM	Arizona	@ UCLA	7 : 17	
+	Nov 01, 09:30 PM	California	@ Oregon State	45 : 31	
+	Nov 01, 09:30 PM	San Diego State	@ Nevada	14 : 30	
+	Nov 01, 07:00 PM	Illinois	@ Ohio State	14 : 55	
+	Nov 01, 07:00 PM	Notre Dame	@ Navy	49 : 39	
+	Nov 01, 07:00 PM	Oklahoma State	@ Kansas State	14 : 48	
+	Nov 01, 07:00 PM	Southern Miss	@ UTEP	14 : 35	
+	Nov 01, 06:30 PM	Stanford	@ Oregon	16 : 45	
+	Nov 01, 06:30 PM	Tennessee	@ South Carolina	45 : 42
+	Nov 01, 06:30 PM	Texas	@ Texas Tech	34 : 13	
+	Nov 01, 06:15 PM	Arkansas	@ Mississippi St.	10 : 17	
+	Nov 01, 06:00 PM	Auburn	@ Mississippi	35 : 31	
+	Nov 01, 06:00 PM	Colorado State Rams	@ San Jose State	38 : 31	
+	Nov 01, 06:00 PM	Old D.	@ Vanderbilt	28 : 42	
+	Nov 01, 06:00 PM	UAB	@ Florida Atlantic	31 : 28	
+	Nov 01, 04:30 PM	New Mexico	@ UNLV Rebels	31 : 28	
+	Nov 01, 04:00 PM	Arkansas State	@ Idaho	44 : 28	
+	Nov 01, 04:00 PM	South Alabama	@ Louisiana-Lafayette	9 : 19	
+	Nov 01, 03:30 PM	USC	@ Washington State	44 : 17	
+	Nov 01, 03:00 PM	Houston	@ South Florida	27 : 3	
+	Nov 01, 03:00 PM	Kansas	@ Baylor	14 : 60	
+	Nov 01, 03:00 PM	Kentucky	@ Missouri	10 : 20	
+	Nov 01, 03:00 PM	Texas State Bobcats	@ New Mexico State	37 : 29	
+	Nov 01, 02:30 PM	Brigham Young	@ Middle Tennessee St	27 : 7	
+	Nov 01, 02:30 PM	Florida	@ Georgia	38 : 20	
+	Nov 01, 02:30 PM	Georgia State Panthers	@ Appalachian State	0 : 44	
+	Nov 01, 02:30 PM	Indiana	@ Michigan	10 : 34	
+	Nov 01, 02:30 PM	Purdue	@ Nebraska	14 : 35	
+	Nov 01, 02:30 PM	TCU	@ West Virginia	31 : 30	
+	Nov 01, 02:30 PM	Virginia	@ Georgia Tech	10 : 35	
+	Nov 01, 02:00 PM	North Carolina State	@ Syracuse	24 : 17	
+	Nov 01, 02:00 PM	Western Kentucky	@ Louisiana Tech	10 : 59	
+	Nov 01, 01:30 PM	Western Michigan	@ Miami (Oh)	41 : 10	
+	Nov 01, 12:00 PM	Central Michigan	@ Eastern Michigan	38 : 7	
+	Nov 01, 12:00 PM	Washington Huskies	@ Colorado Buffaloes	38 : 23	
+	Nov 01, 11:30 AM	Boston College	@ Virginia Tech	33 : 31	
+	Nov 01, 11:30 AM	North Carolina	@ Miami (FL)	20 : 47	
+	Nov 01, 11:00 AM	Duke	@ Pittsburgh	51 : 48
+	Nov 01, 11:00 AM	East Carolina	@ Temple	10 : 20	
+	Nov 01, 11:00 AM	Louisiana-Monroe	@ Texas A&M	16 : 21	
+	Nov 01, 11:00 AM	Maryland	@ Penn State	20 : 19	
+	Nov 01, 11:00 AM	Northwestern	@ Iowa	7 : 48	
+	Nov 01, 11:00 AM	Oklahoma	@ Iowa State	59 : 14	
+	Nov 01, 11:00 AM	Rice	@ FIU	31 : 17	
+	Nov 01, 11:00 AM	UCF	@ Connecticut	29 : 37	
+	Nov 01, 11:00 AM	Wisconsin	@ Rutgers	37 : 0	
+	Nov 01, 10:30 AM	Air Force	@ Army	23 : 6	
+	Oct 31, 07:00 PM	Cincinnati	@ Tulane	38 : 14	
+	Oct 31, 07:00 PM	Tulsa	@ Memphis	20 : 40	
+	Oct 30, 06:30 PM	Florida State	@ Louisville	42 : 31	
+	Oct 30, 06:30 PM	Troy	@ Georgia Southern	10 : 42	
+	Oct 25, 10:59 PM	Nevada	@ Hawaii	26 : 18	
+	Oct 25, 09:45 PM	Arizona State	@ Washington Huskies	24 : 10	
+	Oct 25, 09:00 PM	USC	@ Utah	21 : 24	
+	Oct 25, 08:00 PM	Ohio State	@ Penn State	31 : 24
+	Oct 25, 06:30 PM	Alabama	@ Tennessee	34 : 20	
+	Oct 25, 06:30 PM	South Carolina	@ Auburn	35 : 42	
+	Oct 25, 06:15 PM	Mississippi	@ LSU	7 : 10	
+	Oct 25, 06:04 PM	Texas State Bobcats	@ Louisiana-Monroe	22 : 18	
+	Oct 25, 06:00 PM	Syracuse	@ Clemson	6 : 16	
+	Oct 25, 06:00 PM	UTEP	@ UTSA	34 : 0	
+	Oct 25, 06:00 PM	Wyoming	@ Colorado State Rams	31 : 45	
+	Oct 25, 05:00 PM	Arizona	@ Washington State	59 : 37	
+	Oct 25, 04:00 PM	Temple	@ UCF	14 : 34	
+	Oct 25, 03:00 PM	Old D.	@ Western Kentucky	51 : 66	
+	Oct 25, 03:00 PM	UNLV Rebels	@ Utah State	20 : 34	
+	Oct 25, 03:00 PM	Vanderbilt	@ Missouri	14 : 24	
+	Oct 25, 02:30 PM	Boston College	@ Wake Forest	23 : 17	
+	Oct 25, 02:30 PM	Central Michigan	@ Buffalo	20 : 14	
+	Oct 25, 02:30 PM	Florida Atlantic	@ Marshall	16 : 35	
+	Oct 25, 02:30 PM	Georgia Tech	@ Pittsburgh	56 : 28	
+	Oct 25, 02:30 PM	Louisiana Tech	@ Southern Miss	31 : 20	
+	Oct 25, 02:30 PM	Michigan	@ Michigan State	11 : 35	
+	Oct 25, 02:30 PM	Mississippi St.	@ Kentucky	45 : 31	
+	Oct 25, 02:30 PM	Oregon State	@ Stanford	14 : 38	
+	Oct 25, 02:30 PM	Texas Tech	@ TCU	27 : 82	
+	Oct 25, 02:30 PM	West Virginia	@ Oklahoma State	34 : 10	
+	Oct 25, 01:30 PM	Kent State	@ Miami (Oh)	3 : 10	
+	Oct 25, 01:00 PM	Akron	@ Ball State	21 : 35	
+	Oct 25, 01:00 PM	Georgia Southern	@ Georgia State Panthers	69 : 31	
+	Oct 25, 01:00 PM	Massachusetts	@ Toledo	35 : 42	
+	Oct 25, 01:00 PM	Ohio	@ Western Michigan	21 : 42	
+	Oct 25, 01:00 PM	UCLA	@ Colorado Buffaloes	40 : 37
+	Oct 25, 12:00 PM	Northern Illinois	@ Eastern Michigan	28 : 17	
+	Oct 25, 12:00 PM	San Jose State	@ Navy	31 : 41	
+	Oct 25, 11:30 AM	North Carolina	@ Virginia	28 : 27	
+	Oct 25, 11:00 AM	Maryland	@ Wisconsin	7 : 52	
+	Oct 25, 11:00 AM	Memphis	@ Southern Methodist	48 : 10	
+	Oct 25, 11:00 AM	Minnesota	@ Illinois	24 : 28	
+	Oct 25, 11:00 AM	North Texas	@ Rice	21 : 41	
+	Oct 25, 11:00 AM	Rutgers	@ Nebraska	24 : 42	
+	Oct 25, 11:00 AM	Texas	@ Kansas State	0 : 23	
+	Oct 25, 11:00 AM	UAB	@ Arkansas	17 : 45	
+	Oct 24, 09:00 PM	Oregon	@ California	59 : 41	
+	Oct 24, 08:00 PM	Brigham Young	@ Boise State	30 : 55	
+	Oct 24, 06:30 PM	Troy	@ South Alabama	13 : 27	
+	Oct 24, 06:00 PM	South Florida	@ Cincinnati	17 : 34	
+	Oct 23, 07:00 PM	Miami (FL)	@ Virginia Tech	30 : 6	
+	Oct 23, 06:00 PM	Connecticut	@ East Carolina	21 : 31	
+	Oct 21, 07:00 PM	Arkansas State	@ Louisiana-Lafayette	40 : 55	
+	Oct 18, 09:30 PM	Hawaii	@ San Diego State	10 : 20	
+	Oct 18, 09:30 PM	Stanford	@ Arizona State	10 : 26	
+	Oct 18, 09:15 PM	Nevada	@ Brigham Young	42 : 35	
+	Oct 18, 07:00 PM	Iowa State	@ Texas	45 : 48	
+	Oct 18, 07:00 PM	Notre Dame	@ Florida State	27 : 31	
+	Oct 18, 07:00 PM	Washington Huskies	@ Oregon	20 : 45	
+	Oct 18, 06:30 PM	Georgia State Panthers	@ South Alabama	27 : 30	
+	Oct 18, 06:30 PM	Kentucky	@ LSU	3 : 41	
+	Oct 18, 06:30 PM	Nebraska	@ Northwestern	38 : 17	
+	Oct 18, 06:00 PM	Georgia Tech	@ North Carolina	43 : 48	
+	Oct 18, 06:00 PM	Missouri	@ Florida	42 : 13	
+	Oct 18, 06:00 PM	Southern Miss	@ North Texas	30 : 20	
+	Oct 18, 06:00 PM	Tennessee	@ Mississippi	3 : 34	
+	Oct 18, 06:00 PM	Utah State	@ Colorado State Rams	13 : 16	
+	Oct 18, 05:00 PM	Colorado Buffaloes	@ USC	28 : 56	
+	Oct 18, 05:00 PM	Marshall	@ FIU	45 : 13	
+	Oct 18, 04:00 PM	Miami (Oh)	@ Northern Illinois	41 : 51	
+	Oct 18, 04:00 PM	New Mexico State	@ Idaho	17 : 29	
+	Oct 18, 03:00 PM	Georgia	@ Arkansas	45 : 32	
+	Oct 18, 03:00 PM	Oklahoma State	@ TCU	9 : 42	
+	Oct 18, 03:00 PM	San Jose State	@ Wyoming	27 : 20
+	Oct 18, 02:30 PM	Army	@ Kent State	17 : 39	
+	Oct 18, 02:30 PM	Ball State	@ Central Michigan	32 : 29	
+	Oct 18, 02:30 PM	Cincinnati	@ Southern Methodist	41 : 3	
+	Oct 18, 02:30 PM	Clemson	@ Boston College	17 : 13	
+	Oct 18, 02:30 PM	Kansas	@ Texas Tech	21 : 34	
+	Oct 18, 02:30 PM	Michigan State	@ Indiana	56 : 17	
+	Oct 18, 02:30 PM	New Mexico	@ Air Force	31 : 35	
+	Oct 18, 02:30 PM	North Carolina State	@ Louisville	18 : 30	
+	Oct 18, 02:30 PM	Rutgers	@ Ohio State	17 : 56	
+	Oct 18, 02:30 PM	Texas A&M	@ Alabama	0 : 59	
+	Oct 18, 02:30 PM	UAB	@ Middle Tennessee St	22 : 34	
+	Oct 18, 02:30 PM	UCLA	@ California	36 : 34	
+	Oct 18, 02:00 PM	Appalachian State	@ Troy	53 : 14	
+	Oct 18, 02:00 PM	Eastern Michigan	@ Massachusetts	14 : 36	
+	Oct 18, 01:00 PM	Akron	@ Ohio	20 : 23	
+	Oct 18, 01:00 PM	Western Michigan	@ Bowling Green	26 : 14	
+	Oct 18, 11:30 AM	Virginia	@ Duke	13 : 20	
+	Oct 18, 11:00 AM	Baylor	@ West Virginia	27 : 41	
+	Oct 18, 11:00 AM	Furman	@ South Carolina	10 : 41	
+	Oct 18, 11:00 AM	Iowa	@ Maryland	31 : 38	
+	Oct 18, 11:00 AM	Kansas State	@ Oklahoma	31 : 30	
+	Oct 18, 11:00 AM	Purdue	@ Minnesota	38 : 39	
+	Oct 18, 11:00 AM	South Florida	@ Tulsa	38 : 30	
+	Oct 18, 11:00 AM	Syracuse	@ Wake Forest	30 : 7	
+	Oct 18, 11:00 AM	Tulane	@ UCF	13 : 20	
+	Oct 18, 11:00 AM	UTSA	@ Louisiana Tech	20 : 27	
+	Oct 18, 11:00 AM	Western Kentucky	@ Florida Atlantic	38 : 45	
+	Oct 17, 08:00 PM	Temple	@ Houston	10 : 31	
+	Oct 17, 07:00 PM	Fresno State	@ Boise State	27 : 37	
+	Oct 16, 09:00 PM	Utah	@ Oregon State	29 : 23
+	Oct 16, 06:30 PM	Virginia Tech	@ Pittsburgh	16 : 21	
+	Oct 14, 07:00 PM	Louisiana-Lafayette	@ Texas State Bobcats	34 : 10	
+	Oct 11, 11:00 PM	Wyoming	@ Hawaii	28 : 38	
+	Oct 11, 09:30 PM	Colorado State Rams	@ Nevada	31 : 24	
+	Oct 11, 09:30 PM	USC	@ Arizona	28 : 26	
+	Oct 11, 09:15 PM	Air Force	@ Utah State	16 : 34	
+	Oct 11, 08:00 PM	Mississippi	@ Texas A&M	35 : 20	
+	Oct 11, 07:00 PM	Connecticut	@ Tulane	3 : 12	
+	Oct 11, 07:00 PM	Old D.	@ UTEP	35 : 42	
+	Oct 11, 06:30 PM	Charleston	@ Vanderbilt	20 : 21	
+	Oct 11, 06:30 PM	LSU	@ Florida	30 : 27	
+	Oct 11, 06:00 PM	East Carolina	@ South Florida	28 : 17	
+	Oct 11, 06:00 PM	FIU	@ UTSA	13 : 16	
+	Oct 11, 06:00 PM	Houston	@ Memphis	28 : 24	
+	Oct 11, 06:00 PM	Penn State	@ Michigan	13 : 18	
+	Oct 11, 05:00 PM	Alabama	@ Arkansas	14 : 13	
+	Oct 11, 05:00 PM	Idaho	@ Georgia Southern	24 : 47	
+	Oct 11, 05:00 PM	Washington Huskies	@ California	31 : 7	
+	Oct 11, 04:00 PM	Central Michigan	@ Northern Illinois	34 : 17	
+	Oct 11, 03:00 PM	Chattanooga	@ Tennessee	10 : 45	
+	Oct 11, 03:00 PM	Oklahoma State	@ Kansas	27 : 20	
+	Oct 11, 02:30 PM	Auburn	@ Mississippi St.	23 : 38	
+	Oct 11, 02:30 PM	Boston College	@ North Carolina State	30 : 14	
+	Oct 11, 02:30 PM	Liberty Flames	@ Appalachian State	55 : 48
+	Oct 11, 02:30 PM	Louisville	@ Clemson	17 : 23	
+	Oct 11, 02:30 PM	Michigan State	@ Purdue	45 : 31	
+	Oct 11, 02:30 PM	North Carolina	@ Notre Dame	43 : 50	
+	Oct 11, 02:30 PM	North Texas	@ UAB	21 : 56	
+	Oct 11, 02:30 PM	Oregon	@ UCLA	42 : 30	
+	Oct 11, 02:30 PM	TCU	@ Baylor	58 : 61	
+	Oct 11, 02:30 PM	Toledo	@ Iowa State	30 : 37	
+	Oct 11, 02:30 PM	VMI	@ Navy	14 : 51	
+	Oct 11, 02:00 PM	New Mexico State	@ Troy	24 : 41	
+	Oct 11, 02:00 PM	Western Michigan	@ Ball State	42 : 38	
+	Oct 11, 01:00 PM	Arkansas State	@ Georgia State Panthers	52 : 10	
+	Oct 11, 01:00 PM	Bowling Green	@ Ohio	31 : 13	
+	Oct 11, 01:00 PM	Massachusetts	@ Kent State	40 : 17	
+	Oct 11, 01:00 PM	Miami (Oh)	@ Akron	19 : 29	
+	Oct 11, 12:00 PM	Buffalo	@ Eastern Michigan	27 : 37	
+	Oct 11, 11:30 AM	Duke	@ Georgia Tech	31 : 25	
+	Oct 11, 11:00 AM	Cincinnati	@ Miami (FL)	34 : 55	
+	Oct 11, 11:00 AM	Florida State	@ Syracuse	38 : 20	
+	Oct 11, 11:00 AM	Georgia	@ Missouri	34 : 0	
+	Oct 11, 11:00 AM	Illinois	@ Wisconsin	28 : 38	
+	Oct 11, 11:00 AM	Indiana	@ Iowa	29 : 45	
+	Oct 11, 11:00 AM	Louisiana-Monroe	@ Kentucky	14 : 48	
+	Oct 11, 11:00 AM	Middle Tennessee St	@ Marshall	24 : 49	
+	Oct 11, 11:00 AM	Northwestern	@ Minnesota	17 : 24	
+	Oct 11, 11:00 AM	Rice	@ Army	41 : 21	
+	Oct 11, 11:00 AM	Texas	@ Oklahoma	26 : 31	
+	Oct 11, 11:00 AM	Tulsa	@ Temple	24 : 35	
+	Oct 11, 11:00 AM	West Virginia	@ Texas Tech	37 : 34	
+	Oct 10, 09:00 PM	Fresno State	@ UNLV Rebels	27 : 30
+	Oct 10, 08:30 PM	San Diego State	@ New Mexico	24 : 14	
+	Oct 10, 08:00 PM	Washington State	@ Stanford	17 : 34	
+	Oct 09, 06:30 PM	Brigham Young	@ UCF	24 : 31
+	Oct 04, 09:30 PM	Boise State	@ Nevada	51 : 46	
+	Oct 04, 09:30 PM	California	@ Washington State	60 : 59	
+	Oct 04, 09:30 PM	Utah	@ UCLA	30 : 28	
+	Oct 04, 07:00 PM	Georgia Southern	@ New Mexico State	36 : 28	
+	Oct 04, 07:00 PM	Nebraska	@ Michigan State	22 : 27	
+	Oct 04, 07:00 PM	UNLV Rebels	@ San Jose State	10 : 33	
+	Oct 04, 06:30 PM	Arizona State	@ USC	38 : 34	
+	Oct 04, 06:30 PM	Miami (FL)	@ Georgia Tech	17 : 28	
+	Oct 04, 06:30 PM	Pittsburgh	@ Virginia	19 : 24	
+	Oct 04, 06:30 PM	South Carolina	@ Kentucky	38 : 45	
+	Oct 04, 06:00 PM	Georgia State Panthers	@ Louisiana-Lafayette	31 : 34	
+	Oct 04, 06:00 PM	Hawaii	@ Rice	14 : 28	
+	Oct 04, 06:00 PM	Idaho	@ Texas State Bobcats	30 : 35	
+	Oct 04, 06:00 PM	Louisiana-Monroe	@ Arkansas State	14 : 28	
+	Oct 04, 06:00 PM	LSU	@ Auburn	7 : 41	
+	Oct 04, 06:00 PM	Memphis	@ Cincinnati	41 : 14	
+	Oct 04, 06:00 PM	Michigan	@ Rutgers	24 : 26	
+	Oct 04, 06:00 PM	Texas Tech	@ Kansas State	13 : 45	
+	Oct 04, 06:00 PM	Toledo	@ Western Michigan	20 : 19
+	Oct 04, 06:00 PM	UAB	@ Western Kentucky	42 : 39	
+	Oct 04, 06:00 PM	UTEP	@ Louisiana Tech	3 : 55	
+	Oct 04, 05:00 PM	South Alabama	@ Appalachian State	47 : 21	
+	Oct 04, 04:00 PM	Kent State	@ Northern Illinois	14 : 17	
+	Oct 04, 03:00 PM	Kansas	@ West Virginia	14 : 33	
+	Oct 04, 03:00 PM	Oregon State	@ Colorado Buffaloes	36 : 31	
+	Oct 04, 03:00 PM	Vanderbilt	@ Georgia	17 : 44	
+	Oct 04, 02:30 PM	Alabama	@ Mississippi	17 : 23	
+	Oct 04, 02:30 PM	Baylor	@ Texas	28 : 7	
+	Oct 04, 02:30 PM	Buffalo	@ Bowling Green	35 : 36	
+	Oct 04, 02:30 PM	Navy	@ Air Force	21 : 30	
+	Oct 04, 02:30 PM	New Mexico	@ UTSA	21 : 9	
+	Oct 04, 02:30 PM	North Carolina State	@ Clemson	0 : 41	
+	Oct 04, 02:30 PM	Ohio	@ Central Michigan	10 : 28	
+	Oct 04, 02:30 PM	Oklahoma	@ TCU	33 : 37	
+	Oct 04, 02:30 PM	Stanford	@ Notre Dame	14 : 17	
+	Oct 04, 02:30 PM	Wake Forest	@ Florida State	3 : 43	
+	Oct 04, 02:30 PM	Wisconsin	@ Northwestern	14 : 20	
+	Oct 04, 02:00 PM	Tulsa	@ Colorado State Rams	17 : 42	
+	Oct 04, 01:30 PM	Massachusetts	@ Miami (Oh)	41 : 42	
+	Oct 04, 01:30 PM	North Texas	@ Indiana	24 : 49	
+	Oct 04, 01:00 PM	Eastern Michigan	@ Akron	6 : 31	
+	Oct 04, 11:30 AM	Virginia Tech	@ North Carolina	34 : 17	
+	Oct 04, 11:00 AM	Ball State	@ Army	24 : 33	
+	Oct 04, 11:00 AM	Florida	@ Tennessee	10 : 9	
+	Oct 04, 11:00 AM	Iowa State	@ Oklahoma State	20 : 37	
+	Oct 04, 11:00 AM	Marshall	@ Old D.	56 : 14	
+	Oct 04, 11:00 AM	Ohio State	@ Maryland	52 : 24	
+	Oct 04, 11:00 AM	Purdue	@ Illinois	38 : 27	
+	Oct 04, 11:00 AM	Southern Methodist	@ East Carolina	24 : 45	
+	Oct 04, 11:00 AM	Southern Miss	@ Middle Tennessee St	31 : 37	
+	Oct 04, 11:00 AM	Texas A&M	@ Mississippi St.	31 : 48	
+	Oct 03, 09:15 PM	Utah State	@ Brigham Young	35 : 20	
+	Oct 03, 09:00 PM	San Diego State	@ Fresno State	13 : 24	
+	Oct 03, 06:00 PM	Louisville	@ Syracuse	28 : 6	
+	Oct 02, 09:30 PM	Arizona	@ Oregon	31 : 24	
+	Oct 02, 06:00 PM	Florida Atlantic	@ FIU	10 : 38	
+	Oct 02, 06:00 PM	UCF	@ Houston	17 : 12	
+	Sep 27, 09:30 PM	Nevada	@ San Jose State	21 : 10	
+	Sep 27, 09:30 PM	Oregon State	@ USC	10 : 35	
+	Sep 27, 08:00 PM	Illinois	@ Nebraska	14 : 45	
+	Sep 27, 07:00 PM	Baylor	@ Iowa State	49 : 28	
+	Sep 27, 07:00 PM	Notre Dame	@ Syracuse	31 : 15	
+	Sep 27, 07:00 PM	Texas State Bobcats	@ Tulsa	37 : 34
+	Sep 27, 07:00 PM	UNLV Rebels	@ San Diego State	17 : 34	
+	Sep 27, 07:00 PM	Washington State	@ Utah	28 : 27	
+	Sep 27, 06:30 PM	Duke	@ Miami (FL)	10 : 22	
+	Sep 27, 06:30 PM	Memphis	@ Mississippi	3 : 24	
+	Sep 27, 06:30 PM	New Mexico State	@ LSU	7 : 63	
+	Sep 27, 06:00 PM	Boise State	@ Air Force	14 : 28	
+	Sep 27, 06:00 PM	Central Michigan	@ Toledo	28 : 42	
+	Sep 27, 06:00 PM	Missouri	@ South Carolina	21 : 20	
+	Sep 27, 06:00 PM	North Carolina	@ Clemson	35 : 50	
+	Sep 27, 06:00 PM	Rice	@ Southern Miss	41 : 23	
+	Sep 27, 06:00 PM	Troy	@ Louisiana-Monroe	20 : 22	
+	Sep 27, 05:00 PM	Cincinnati	@ Ohio State	28 : 50	
+	Sep 27, 04:00 PM	South Alabama	@ Idaho	34 : 10	
+	Sep 27, 04:00 PM	UTSA	@ Florida Atlantic	37 : 41	
+	Sep 27, 03:15 PM	Stanford	@ Washington Huskies	20 : 13	
+	Sep 27, 03:00 PM	Colorado Buffaloes	@ California	56 : 59
+	Sep 27, 03:00 PM	Louisiana Tech	@ Auburn	17 : 45	
+	Sep 27, 03:00 PM	Temple	@ Connecticut	36 : 10	
+	Sep 27, 03:00 PM	Texas	@ Kansas	23 : 0	
+	Sep 27, 02:30 PM	Arkansas	@ Texas A&M	28 : 35
+	Sep 27, 02:30 PM	FIU	@ UAB	34 : 20	
+	Sep 27, 02:30 PM	Florida State	@ North Carolina State	56 : 41	
+	Sep 27, 02:30 PM	Kent State	@ Virginia	13 : 45	
+	Sep 27, 02:30 PM	Miami (Oh)	@ Buffalo	27 : 35	
+	Sep 27, 02:30 PM	Minnesota	@ Michigan	30 : 14	
+	Sep 27, 02:30 PM	Wake Forest	@ Louisville	10 : 20	
+	Sep 27, 02:30 PM	Western Kentucky	@ Navy	36 : 27	
+	Sep 27, 02:00 PM	Bowling Green	@ Massachusetts	47 : 42	
+	Sep 27, 01:00 PM	Eastern Illinois Panthers	@ Ohio	19 : 34	
+	Sep 27, 12:30 PM	Akron	@ Pittsburgh	21 : 10	
+	Sep 27, 12:30 PM	Maryland	@ Indiana	37 : 15	
+	Sep 27, 12:00 PM	Army	@ Yale B.	43 : 49
+	Sep 27, 11:30 AM	Colorado State Rams	@ Boston College	24 : 21	
+	Sep 27, 11:30 AM	Western Michigan	@ Virginia Tech	17 : 35	
+	Sep 27, 11:00 AM	Iowa	@ Purdue	24 : 10	
+	Sep 27, 11:00 AM	Northwestern	@ Penn State	29 : 6	
+	Sep 27, 11:00 AM	South Florida	@ Wisconsin	10 : 27	
+	Sep 27, 11:00 AM	TCU	@ Southern Methodist	56 : 0	
+	Sep 27, 11:00 AM	Tennessee	@ Georgia	32 : 35	
+	Sep 27, 11:00 AM	Tulane	@ Rutgers	6 : 31	
+	Sep 27, 11:00 AM	UTEP	@ Kansas State	28 : 58	
+	Sep 27, 11:00 AM	Vanderbilt	@ Kentucky	7 : 17	
+	Sep 27, 11:00 AM	Wyoming	@ Michigan State	14 : 56	
+	Sep 26, 07:00 PM	Fresno State	@ New Mexico	35 : 24	
+	Sep 26, 07:00 PM	Middle Tennessee St	@ Old D.	41 : 28	
+	Sep 25, 09:00 PM	UCLA	@ Arizona State	62 : 27	
+	Sep 25, 06:30 PM	Appalachian State	@ Georgia Southern	14 : 34	
+	Sep 25, 06:30 PM	Texas Tech	@ Oklahoma State	35 : 45	
+	Sep 20, 09:30 PM	Louisiana-Lafayette	@ Boise State	9 : 34	
+	Sep 20, 09:30 PM	Oregon	@ Washington State	38 : 31	
+	Sep 20, 09:30 PM	San Diego State	@ Oregon State	7 : 28	
+	Sep 20, 09:00 PM	California	@ Arizona	45 : 49	
+	Sep 20, 09:00 PM	Southern Utah	@ Fresno State	16 : 56	
+	Sep 20, 07:00 PM	Clemson	@ Florida State	17 : 23
+	Sep 20, 07:00 PM	Miami (FL)	@ Nebraska	31 : 41	
+	Sep 20, 07:00 PM	New Mexico	@ New Mexico State	38 : 35	
+	Sep 20, 07:00 PM	UNLV Rebels	@ Houston	14 : 47	
+	Sep 20, 06:30 PM	Georgia Southern	@ South Alabama	28 : 6	
+	Sep 20, 06:30 PM	Oklahoma	@ West Virginia	45 : 33	
+	Sep 20, 06:30 PM	South Carolina	@ Vanderbilt	48 : 34	
+	Sep 20, 06:00 PM	Appalachian State	@ Southern Miss	20 : 21	
+	Sep 20, 06:00 PM	Ball State	@ Toledo	23 : 34	
+	Sep 20, 06:00 PM	Idaho	@ Ohio	24 : 36	
+	Sep 20, 06:00 PM	Miami (Oh)	@ Cincinnati	24 : 31	
+	Sep 20, 06:00 PM	Middle Tennessee St	@ Memphis	17 : 36	
+	Sep 20, 06:00 PM	Mississippi St.	@ LSU	34 : 29	
+	Sep 20, 06:00 PM	Murray State Racers	@ Western Michigan	14 : 45	
+	Sep 20, 06:00 PM	Northern Illinois	@ Arkansas	14 : 52	
+	Sep 20, 06:00 PM	Northwestern State	@ Louisiana Tech	30 : 27	
+	Sep 20, 06:00 PM	Utah State	@ Arkansas State	14 : 21
+	Sep 20, 05:00 PM	Bethune Cookman	@ UCF	7 : 41	
+	Sep 20, 05:00 PM	Georgia State Panthers	@ Washington Huskies	14 : 45	
+	Sep 20, 05:00 PM	Presbyterian	@ North Carolina State	0 : 42	
+	Sep 20, 03:00 PM	Florida Atlantic	@ Wyoming	19 : 20	
+	Sep 20, 03:00 PM	Indiana	@ Missouri	31 : 27	
+	Sep 20, 03:00 PM	Massachusetts	@ Penn State	7 : 48	
+	Sep 20, 03:00 PM	San Jose State	@ Minnesota	7 : 24	
+	Sep 20, 03:00 PM	Texas State Bobcats	@ Illinois	35 : 42	
+	Sep 20, 02:30 PM	Army	@ Wake Forest	21 : 24	
+	Sep 20, 02:30 PM	Central Michigan	@ Kansas	10 : 24	
+	Sep 20, 02:30 PM	Florida	@ Alabama	21 : 42	
+	Sep 20, 02:30 PM	Louisville	@ FIU	34 : 3	
+	Sep 20, 02:30 PM	Nicholls State	@ North Texas	3 : 77	
+	Sep 20, 02:30 PM	Norfolk State	@ Buffalo	7 : 36	
+	Sep 20, 02:30 PM	North Carolina	@ East Carolina	41 : 70	
+	Sep 20, 02:30 PM	Rutgers	@ Navy	31 : 24	
+	Sep 20, 02:30 PM	Texas A&M	@ Southern Methodist	58 : 6	
+	Sep 20, 02:30 PM	Utah	@ Michigan	26 : 10	
+	Sep 20, 02:30 PM	Virginia	@ Brigham Young	33 : 41	
+	Sep 20, 01:00 PM	Hawaii	@ Colorado Buffaloes	12 : 21	
+	Sep 20, 01:00 PM	Marshall	@ Akron	48 : 17	
+	Sep 20, 12:00 PM	Delaware State	@ Temple	0 : 59	
+	Sep 20, 12:00 PM	Maine	@ Boston College	10 : 40	
+	Sep 20, 11:30 AM	Maryland	@ Syracuse	34 : 20	
+	Sep 20, 11:30 AM	Tulane	@ Duke	13 : 47	
+	Sep 20, 11:00 AM	Bowling Green	@ Wisconsin	17 : 68	
+	Sep 20, 11:00 AM	Eastern Michigan	@ Michigan State	14 : 73	
+	Sep 20, 11:00 AM	Georgia Tech	@ Virginia Tech	27 : 24	
+	Sep 20, 11:00 AM	Iowa	@ Pittsburgh	24 : 20	
+	Sep 20, 11:00 AM	Old D.	@ Rice	45 : 42	
+	Sep 20, 11:00 AM	Southern Illinois	@ Purdue	13 : 35	
+	Sep 20, 11:00 AM	Troy	@ Georgia	0 : 66	
+	Sep 20, 11:00 AM	Western Illinois	@ Northwestern	7 : 24	
+	Sep 19, 07:00 PM	Connecticut	@ South Florida	14 : 17	
+	Sep 18, 06:30 PM	Auburn	@ Kansas State	20 : 14	
+	Sep 13, 11:00 PM	Northern Iowa	@ Hawaii	24 : 27	
+	Sep 13, 10:00 PM	Nevada	@ Arizona	28 : 35	
+	Sep 13, 09:30 PM	Nebraska	@ Fresno State	55 : 19	
+	Sep 13, 09:00 PM	Arizona State	@ Colorado Buffaloes	38 : 24	
+	Sep 13, 08:00 PM	Rice	@ Texas A&M	10 : 38	
+	Sep 13, 07:15 PM	UCLA	@ Texas	20 : 17	
+	Sep 13, 07:00 PM	Navy	@ Texas State Bobcats	35 : 21	
+	Sep 13, 07:00 PM	New Mexico State	@ UTEP	24 : 42	
+	Sep 13, 07:00 PM	Penn State	@ Rutgers	13 : 10	
+	Sep 13, 07:00 PM	Portland State	@ Washington State	21 : 59	
+	Sep 13, 07:00 PM	Southeastern Louisiana	@ Tulane	20 : 35	
+	Sep 13, 07:00 PM	Tennessee	@ Oklahoma	10 : 34	
+	Sep 13, 07:00 PM	USC	@ Boston College	31 : 37	
+	Sep 13, 06:30 PM	Kentucky	@ Florida	30 : 36
+	Sep 13, 06:30 PM	Purdue	@ Notre Dame	14 : 30	
+	Sep 13, 06:00 PM	Abilene	@ Troy	38 : 35	
+	Sep 13, 06:00 PM	Louisiana-Monroe	@ LSU	0 : 31	
+	Sep 13, 06:00 PM	Northern Illinois	@ UNLV Rebels	48 : 34	
+	Sep 13, 06:00 PM	Tulsa	@ Florida Atlantic	21 : 50	
+	Sep 13, 06:00 PM	UTSA	@ Oklahoma State	13 : 43	
+	Sep 13, 06:00 PM	Wake Forest	@ Utah State	24 : 36	
+	Sep 13, 06:00 PM	Western Kentucky	@ Middle Tennessee St	47 : 50
+	Sep 13, 05:00 PM	Eastern Michigan	@ Old D.	3 : 17	
+	Sep 13, 05:00 PM	Southern Miss	@ Alabama	12 : 52	
+	Sep 13, 04:00 PM	Army	@ Stanford	0 : 35	
+	Sep 13, 04:00 PM	Western Michigan	@ Idaho	45 : 33	
+	Sep 13, 03:00 PM	Illinois	@ Washington Huskies	19 : 44	
+	Sep 13, 03:00 PM	Louisiana-Lafayette	@ Mississippi	15 : 56	
+	Sep 13, 03:00 PM	Minnesota	@ TCU	7 : 30	
+	Sep 13, 03:00 PM	Mississippi St.	@ South Alabama	35 : 3	
+	Sep 13, 02:30 PM	Alabama A&M	@ UAB	14 : 41	
+	Sep 13, 02:30 PM	Arkansas	@ Texas Tech	49 : 28	
+	Sep 13, 02:30 PM	Arkansas State	@ Miami (FL)	20 : 41	
+	Sep 13, 02:30 PM	Georgia	@ South Carolina	35 : 38	
+	Sep 13, 02:30 PM	Iowa State	@ Iowa	20 : 17	
+	Sep 13, 02:30 PM	Kansas	@ Duke	3 : 41	
+	Sep 13, 02:30 PM	Miami (Oh)	@ Michigan	10 : 34	
+	Sep 13, 02:30 PM	North Carolina State	@ South Florida	49 : 17	
+	Sep 13, 02:00 PM	Indiana State	@ Ball State	27 : 20	
+	Sep 13, 02:00 PM	UC Davis	@ Colorado State Rams	21 : 49	
+	Sep 13, 01:00 PM	Air Force	@ Georgia State Panthers	48 : 38	
+	Sep 13, 01:00 PM	Wyoming	@ Oregon	14 : 48	
+	Sep 13, 11:30 AM	Louisville	@ Virginia	21 : 23	
+	Sep 13, 11:00 AM	Boise State	@ Connecticut	38 : 21	
+	Sep 13, 11:00 AM	East Carolina	@ Virginia Tech	28 : 21	
+	Sep 13, 11:00 AM	Georgia Southern	@ Georgia Tech	38 : 42	
+	Sep 13, 11:00 AM	Indiana	@ Bowling Green	42 : 45	
+	Sep 13, 11:00 AM	Kent State	@ Ohio State	0 : 66	
+	Sep 13, 11:00 AM	Massachusetts	@ Vanderbilt	31 : 34	
+	Sep 13, 11:00 AM	Ohio	@ Marshall	14 : 44	
+	Sep 13, 11:00 AM	Pittsburgh	@ FIU	42 : 25	
+	Sep 13, 11:00 AM	Syracuse	@ Central Michigan	40 : 3	
+	Sep 13, 11:00 AM	UCF	@ Missouri	10 : 38	
+	Sep 13, 11:00 AM	West Virginia	@ Maryland	40 : 37	
+	Sep 12, 07:00 PM	Baylor	@ Buffalo	63 : 21	
+	Sep 12, 06:00 PM	Toledo	@ Cincinnati	34 : 58	
+	Sep 11, 08:00 PM	Houston	@ Brigham Young	25 : 33	
+	Sep 11, 07:00 PM	Louisiana Tech	@ North Texas	42 : 21	
+	Sep 06, 10:00 PM	Texas Tech	@ UTEP	30 : 26	
+	Sep 06, 09:30 PM	Oregon State	@ Hawaii	38 : 30	
+	Sep 06, 09:15 PM	Air Force	@ Wyoming	13 : 17	
+	Sep 06, 09:15 PM	Colorado State Rams	@ Boise State	24 : 37	
+	Sep 06, 09:00 PM	Memphis	@ UCLA	35 : 42	
+	Sep 06, 09:00 PM	Northern Colorado	@ UNLV Rebels	12 : 13	
+	Sep 06, 07:00 PM	Grambling State	@ Houston	0 : 47	
+	Sep 06, 07:00 PM	Idaho State	@ Utah State	20 : 40	
+	Sep 06, 07:00 PM	San Diego State	@ North Carolina	27 : 31	
+	Sep 06, 07:00 PM	Virginia Tech	@ Ohio State	35 : 21	
+	Sep 06, 06:30 PM	Brigham Young	@ Texas	41 : 7	
+	Sep 06, 06:30 PM	Citadel Bulldogs	@ Florida State	12 : 37	
+	Sep 06, 06:30 PM	Lamar	@ Texas A&M	3 : 73	
+	Sep 06, 06:30 PM	Michigan	@ Notre Dame	0 : 31	
+	Sep 06, 06:30 PM	Northwestern State	@ Baylor	6 : 70	
+	Sep 06, 06:30 PM	Sam Houston State	@ LSU	0 : 56	
+	Sep 06, 06:30 PM	Towson Tigers	@ West Virginia	0 : 54	
+	Sep 06, 06:00 PM	Alcorn State	@ Southern Miss	20 : 26	
+	Sep 06, 06:00 PM	Arizona State	@ New Mexico	58 : 23	
+	Sep 06, 06:00 PM	Duke	@ Troy	34 : 17	
+	Sep 06, 06:00 PM	East Carolina	@ South Carolina	23 : 33	
+	Sep 06, 06:00 PM	Florida A&M	@ Miami (FL)	7 : 41	
+	Sep 06, 06:00 PM	Idaho	@ Louisiana-Monroe	31 : 38	
+	Sep 06, 06:00 PM	Louisiana Tech	@ Louisiana-Lafayette	48 : 20	
+	Sep 06, 06:00 PM	Murray State Racers	@ Louisville	21 : 66	
+	Sep 06, 06:00 PM	Rhode Island	@ Marshall	7 : 48	
+	Sep 06, 06:00 PM	San Jose State	@ Auburn	13 : 59	
+	Sep 06, 06:00 PM	Southeast Missouri St	@ Kansas	28 : 34	
+	Sep 06, 05:30 PM	Gardner-Webb	@ Wake Forest	7 : 23	
+	Sep 06, 05:30 PM	Michigan State	@ Oregon	27 : 46	
+	Sep 06, 05:00 PM	Campbell Univ.	@ Appalachian State	0 : 66	
+	Sep 06, 05:00 PM	Old D.	@ North Carolina State	34 : 46	
+	Sep 06, 05:00 PM	Savannah State	@ Georgia Southern	9 : 83	
+	Sep 06, 05:00 PM	Wagner	@ FIU	3 : 34	
+	Sep 06, 03:30 PM	Mississippi	@ Vanderbilt	41 : 3	
+	Sep 06, 03:00 PM	Eastern Michigan	@ Florida	0 : 65	
+	Sep 06, 03:00 PM	Georgia Tech	@ Tulane	38 : 21	
+	Sep 06, 03:00 PM	Nicholls State	@ Arkansas	7 : 73	
+	Sep 06, 02:30 PM	Ball State	@ Iowa	13 : 17	
+	Sep 06, 02:30 PM	Eastern Kentucky	@ Miami (Oh)	17 : 10	
+	Sep 06, 02:30 PM	Maryland	@ South Florida	24 : 17	
+	Sep 06, 02:30 PM	Middle Tennessee St	@ Minnesota	24 : 35	
+	Sep 06, 02:30 PM	Missouri State	@ Oklahoma State	23 : 40	
+	Sep 06, 02:30 PM	Northern Illinois	@ Northwestern	23 : 15	
+	Sep 06, 02:30 PM	Ohio	@ Kentucky	3 : 20	
+	Sep 06, 02:30 PM	Richmond Spiders	@ Virginia	13 : 45	
+	Sep 06, 02:30 PM	USC	@ Stanford	13 : 10	
+	Sep 06, 02:30 PM	VMI	@ Bowling Green	7 : 48	
+	Sep 06, 02:05 PM	Washington Eagles	@ Washington Huskies	52 : 59	
+	Sep 06, 02:00 PM	Colorado Buffaloes	@ Massachusetts	41 : 38	
+	Sep 06, 02:00 PM	CS Sacramento	@ California	14 : 55	
+	Sep 06, 02:00 PM	Fresno State	@ Utah	27 : 59	
+	Sep 06, 01:00 PM	New Mexico State	@ Georgia State Panthers	34 : 31	
+	Sep 06, 01:00 PM	South Alabama	@ Kent State	23 : 13	
+	Sep 06, 01:00 PM	UAB	@ Mississippi St.	34 : 47	
+	Sep 06, 12:00 PM	Navy	@ Temple	31 : 24	
+	Sep 06, 11:30 AM	South Carolina State	@ Clemson	7 : 73	
+	Sep 06, 11:00 AM	Akron	@ Penn State	3 : 21	
+	Sep 06, 11:00 AM	Arkansas State	@ Tennessee	19 : 34	
+	Sep 06, 11:00 AM	Buffalo	@ Army	39 : 47	
+	Sep 06, 11:00 AM	Central Michigan	@ Purdue	38 : 17	
+	Sep 06, 11:00 AM	Florida Atlantic	@ Alabama	0 : 41	
+	Sep 06, 11:00 AM	Howard Bison	@ Rutgers	25 : 38	
+	Sep 06, 11:00 AM	Kansas State	@ Iowa State	32 : 28	
+	Sep 06, 11:00 AM	McNeese State	@ Nebraska	24 : 31	
+	Sep 06, 11:00 AM	Missouri	@ Toledo	49 : 24	
+	Sep 06, 11:00 AM	Oklahoma	@ Tulsa	52 : 7	
+	Sep 06, 11:00 AM	Southern Methodist	@ North Texas	6 : 43	
+	Sep 06, 11:00 AM	Stony Brook	@ Connecticut	16 : 19	
+	Sep 06, 11:00 AM	Western Illinois	@ Wisconsin	3 : 37	
+	Sep 06, 11:00 AM	Western Kentucky	@ Illinois	34 : 42	
+	Sep 05, 09:30 PM	Washington State	@ Nevada	13 : 24	
+	Sep 05, 06:00 PM	Pittsburgh	@ Boston College	30 : 20	
+	Sep 04, 07:00 PM	Arizona	@ UTSA	26 : 23	
+	Sep 01, 07:00 PM	Miami (FL)	@ Louisville	13 : 31	
+	Aug 31, 06:30 PM	Southern Methodist	@ Baylor	0 : 45	
+	Aug 31, 06:00 PM	Utah State	@ Tennessee	7 : 38	
+	Aug 30, 09:30 PM	South Dakota Coyotes	@ Oregon	13 : 62	
+	Aug 30, 09:30 PM	Washington Huskies	@ Hawaii	17 : 16	
+	Aug 30, 08:00 PM	Wisconsin	@ LSU	24 : 28	
+	Aug 30, 07:00 PM	Florida State	@ Oklahoma State	37 : 31	
+	Aug 30, 07:00 PM	North Carolina Central Eagles	@ East Carolina	7 : 52	
+	Aug 30, 07:00 PM	North Texas	@ Texas	7 : 38	
+	Aug 30, 07:00 PM	UTEP	@ New Mexico	31 : 24	
+	Aug 30, 06:30 PM	Fresno State	@ USC	13 : 52	
+	Aug 30, 06:30 PM	Southern Miss	@ Mississippi St.	0 : 49	
+	Aug 30, 06:10 PM	Stephen F. Austin	@ Kansas State	16 : 55	
+	Aug 30, 06:00 PM	Arkansas-Pine B.	@ Texas State Bobcats	0 : 65	
+	Aug 30, 06:00 PM	Austin Peay Governors	@ Memphis	0 : 63	
+	Aug 30, 06:00 PM	Bethune Cookman	@ FIU	14 : 12	
+	Aug 30, 06:00 PM	Central Arkansas	@ Texas Tech	35 : 42	
+	Aug 30, 06:00 PM	Louisiana Tech	@ Oklahoma	16 : 48	
+	Aug 30, 06:00 PM	Montana	@ Arkansas State	10 : 37	
+	Aug 30, 06:00 PM	New Hampshire	@ Toledo	20 : 54	
+	Aug 30, 06:00 PM	Northern Arizona	@ San Diego State	7 : 38	
+	Aug 30, 06:00 PM	Samford Bulldogs	@ TCU	14 : 48	
+	Aug 30, 06:00 PM	Savannah State	@ Middle Tennessee St	7 : 61	
+	Aug 30, 06:00 PM	Southern Jaguars	@ Louisiana-Lafayette	6 : 45	
+	Aug 30, 06:00 PM	Western Carolina Catamounts	@ South Florida	31 : 36	
+	Aug 30, 05:00 PM	Elon Phoenix	@ Duke	13 : 52	
+	Aug 30, 05:00 PM	Liberty Flames	@ North Carolina	29 : 56	
+	Aug 30, 05:00 PM	Morgan State	@ Eastern Michigan	28 : 31	
+	Aug 30, 05:00 PM	Ohio	@ Kent State	17 : 14	
+	Aug 30, 04:30 PM	Clemson	@ Georgia	21 : 45	
+	Aug 30, 03:00 PM	Arkansas	@ Auburn	21 : 45	
+	Aug 30, 03:00 PM	Montana Grizzlies	@ Wyoming	12 : 17	
+	Aug 30, 03:00 PM	Portland State	@ Oregon State	14 : 29	
+	Aug 30, 03:00 PM	UC Davis	@ Stanford	0 : 45	
+	Aug 30, 03:00 PM	William & Mary Tribe	@ Virginia Tech	9 : 34	
+	Aug 30, 02:30 PM	California	@ Northwestern	31 : 24	
+	Aug 30, 02:30 PM	Duquesne D.	@ Buffalo	28 : 38	
+	Aug 30, 02:30 PM	Florida Atlantic	@ Nebraska	7 : 55	
+	Aug 30, 02:30 PM	Hampton P.	@ Old D.	28 : 41	
+	Aug 30, 02:30 PM	James Madison	@ Maryland	7 : 52	
+	Aug 30, 02:30 PM	Marshall	@ Miami (Oh)	42 : 27	
+	Aug 30, 02:30 PM	Rice	@ Notre Dame	17 : 48	
+	Aug 30, 02:30 PM	South Dakota State	@ Missouri	18 : 38	
+	Aug 30, 02:30 PM	West Virginia	@ Alabama	23 : 33	
+	Aug 30, 02:00 PM	Boston College	@ Massachusetts	30 : 7	
+	Aug 30, 02:00 PM	Southern Utah	@ Nevada	19 : 28	
+	Aug 30, 01:00 PM	Colgate R.	@ Ball State	10 : 30	
+	Aug 30, 01:00 PM	Nicholls State	@ Air Force	16 : 44	
+	Aug 30, 12:00 PM	Indiana State	@ Indiana	10 : 28	
+	Aug 30, 11:30 AM	Georgia Southern	@ North Carolina State	23 : 24	
+	Aug 30, 11:30 AM	Wofford	@ Georgia Tech	19 : 38	
+	Aug 30, 11:00 AM	Appalachian State	@ Michigan	14 : 52	
+	Aug 30, 11:00 AM	Delaware Fightin	@ Pittsburgh	0 : 62	
+	Aug 30, 11:00 AM	North Dakota State	@ Iowa State	34 : 14	
+	Aug 30, 11:00 AM	Northern Iowa	@ Iowa	23 : 31	
+	Aug 30, 11:00 AM	Ohio State	@ Navy	34 : 17	
+	Aug 30, 11:00 AM	Tennessee-Martin	@ Kentucky	14 : 59	
+	Aug 30, 11:00 AM	Troy	@ UAB	10 : 48	
+	Aug 30, 11:00 AM	UCLA	@ Virginia	28 : 20	
+	Aug 30, 11:00 AM	Western Michigan	@ Purdue	34 : 43	
+	Aug 30, 11:00 AM	Youngstown State	@ Illinois	17 : 28	
+	Aug 30, 07:30 AM	Penn State	@ UCF	26 : 24	
+	Aug 29, 09:30 PM	UNLV Rebels	@ Arizona	13 : 58	
+	Aug 29, 08:00 PM	Colorado State Rams	@ Colorado Buffaloes	31 : 17	
+	Aug 29, 08:00 PM	UTSA	@ Houston	27 : 7	
+	Aug 29, 06:30 PM	Bowling Green	@ Western Kentucky	31 : 59	
+	Aug 29, 06:30 PM	Jacksonville State	@ Michigan State	7 : 45	
+	Aug 29, 06:30 PM	Villanova Wildcats	@ Syracuse	26 : 27
+	Aug 29, 06:00 PM	Brigham Young	@ Connecticut	35 : 10	
+	Aug 28, 09:50 PM	Temple	@ Vanderbilt	37 : 7	
+	Aug 28, 09:30 PM	Weber State	@ Arizona State	14 : 45	
+	Aug 28, 09:00 PM	North D.	@ San Jose State	10 : 42	
+	Aug 28, 09:00 PM	Rutgers	@ Washington State	41 : 38	
+	Aug 28, 07:00 PM	Boise State	@ Mississippi	13 : 35	
+	Aug 28, 07:00 PM	Cal Poly Mustangs	@ New Mexico State	10 : 28	
+	Aug 28, 07:00 PM	Tulane	@ Tulsa	31 : 38
+	Aug 28, 06:30 PM	Idaho State	@ Utah	14 : 56	
+	Aug 28, 06:00 PM	Chattanooga	@ Central Michigan	16 : 20	
+	Aug 28, 06:00 PM	Eastern Illinois Panthers	@ Minnesota	20 : 42	
+	Aug 28, 06:00 PM	Howard Bison	@ Akron	0 : 41	
+	Aug 28, 06:00 PM	Presbyterian	@ Northern Illinois	3 : 55	
+	Aug 28, 06:00 PM	Wake Forest	@ Louisiana-Monroe	10 : 17	
+	Aug 28, 05:00 PM	Texas A&M	@ South Carolina	52 : 28	
+	Aug 27, 06:00 PM	Abilene	@ Georgia State Panthers	37 : 38
