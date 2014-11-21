@@ -99,10 +99,17 @@ for i in range(max_iterations):
           lossScore += 1.5
         else:
           lossScore += 2.0
-      rank -= damping * damping * teamRanks[node] * lossUnit / (lossScore * 2)
+      #rank -= damping * damping * teamRanks[node] * lossUnit / (lossScore * teamRanks[loss[0]] * 200)
+      wins = 0.0
+      if node in teamWins:
+        wins = len(teamWins[node])
+      losses = 0.0
+      if node in teamLosses:
+        losses = len(teamLosses[node])
+      rank *= float(wins ) / (wins + losses)
       
     diff += abs(teamRanks[node] - rank)
-    teamRanks[node] = rank
+    teamRanks[node] = max(rank, 0.00000003) / sum(teamRanks.values())
   if diff < min_delta:
     break
 sortedRanks = sorted(teamRanks.items(), key=operator.itemgetter(1))
