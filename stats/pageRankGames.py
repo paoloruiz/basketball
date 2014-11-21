@@ -80,6 +80,27 @@ for i in range(max_iterations):
         #
       #rank += damping * teamRanks[defeated[0]] * math.sqrt(defeated[1]) / lossScore
       rank += damping * teamRanks[defeated[0]] * scoreUnit / lossScore
+    lossScore
+    myLosses = []
+    if node in teamLosses:
+      myLosses = teamLosses[node]
+    for loss in myLosses:
+      lossUnit = 2.0
+      if loss[1] < closeGameMax:
+        lossUnit = 1.0
+      elif loss[1] < midGameMax:
+        lossUnit = 1.5
+      tWins = teamWins[loss[0]]
+      lossScore = 0.0
+      for win in tWins:
+        if win[1] <= closeGameMax:
+          lossScore += 1.0
+        elif win[1] <= midGameMax:
+          lossScore += 1.5
+        else:
+          lossScore += 2.0
+      rank -= damping * damping * teamRanks[node] * lossUnit / (lossScore * 2)
+      
     diff += abs(teamRanks[node] - rank)
     teamRanks[node] = rank
   if diff < min_delta:
