@@ -3,7 +3,7 @@ import sys
 from season import Season
 from nbaplayer import NbaPlayer
 from score import Score
-year = 2013
+year = 2014
 se = Season()
 sortedPlayers = se.calcSeason('season/thisStats.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11, 7)
 scores = []
