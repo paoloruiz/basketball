@@ -2,43 +2,49 @@ class NbaPlayer:
   def __init__(self, name, position, year, season):
     self.name = name
     self.position = position
-    self.s = {}
-    self.s[year] = season
+    self.seasons = {}
+    self.seasons[year] = season
+    self.first_year = year
 
   def getSeason(self, year):
-    return self.s[year]
+    return self.seasons[year]
 
   def addSeason(self, year, season):
-    self.s[year] = season
+    self.seasons[year] = season
+    self.first_year = min(self.first_year, year)
 
   def hasSeason(self, year):
-    return year in self.s
+    return year in self.seasons
 
   def addPSeason(self, year, player):
-    self.s[year] = player.getSeason(year)
+    self.seasons[year] = player.getSeason(year)
+    self.first_year = min(self.first_year, year)
 
-  def __gt__(self, nb2):
-    return self.name > nb2.name
+  def getFirstYear(self):
+    return self.first_year
 
-  def __ge__(self, nb2):
-    return self.name >= nb2.name
+  def __gt__(self, otherPlayer):
+    return self.name > otherPlayer.name
 
-  def __lt__(self, nb2):
-    return self.name < nb2.name
+  def __ge__(self, otherPlayer):
+    return self.name >= otherPlayer.name
 
-  def __le__(self, nb2):
-    return self.name <= nb2.name
+  def __lt__(self, otherPlayer):
+    return self.name < otherPlayer.name
 
-  def __eq__(self, nb2):
-    return self.name == nb2.name
+  def __le__(self, otherPlayer):
+    return self.name <= otherPlayer.name
 
-  def __ne__(self, nb2):
-    return self.name != nb2.name
+  def __eq__(self, otherPlayer):
+    return self.name == otherPlayer.name
 
-  def __cmp__(self, nb2):
-    if self > nb2:
+  def __ne__(self, otherPlayer):
+    return self.name != otherPlayer.name
+
+  def __cmp__(self, otherPlayer):
+    if self > otherPlayer:
       return 1
-    elif self < nb2:
+    elif self < otherPlayer:
       return -1
     else:
       return 0

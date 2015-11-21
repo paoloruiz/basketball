@@ -1,6 +1,7 @@
 import os
 import sys
 import math
+from ReferenceColumns import ReferenceColumns
 from itertools import izip
 from nbaplayer import NbaPlayer
 class Season:
@@ -9,7 +10,7 @@ class Season:
       return
     self.age = age
     self.year = year
-    self.name = name
+    self.name.value = name
     self.positions = position.split(',')
     self.points = point
     self.assists = assist
@@ -21,18 +22,21 @@ class Season:
     self.ftp = ft
     self.tpm = tp
     self.mp = mp
+    self.per = 0.0
+    self.vorp = 0.0
+    self.bpm = 0.0
     self.scores = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-  def calcZ(self, apoint, stdp, aassist, stda, arebound, stdr, asteal, stds, ablock, stdb, aturnover, stdt, afgp, stdfg, aftp, stdft, atpm, stdtp):
-    self.scores[0] = (self.points - apoint)/stdp
-    self.scores[1] = (self.assists - aassist)/stda
-    self.scores[2] = (self.rebounds - arebound)/stdr
-    self.scores[3] = (self.steals - asteal)/stds
-    self.scores[4] = (self.blocks - ablock)/stdb
-    self.scores[5] = -(self.turnovers - aturnover)/stdt
-    self.scores[6] = (self.fgp - afgp)/stdfg
-    self.scores[7] = (self.ftp - aftp)/stdft
-    self.scores[8] = (self.tpm - atpm)/stdtp
+  def calcZ(self, average_points, standard_deviation_points, average_assists, standard_deviation_assists, average_rebounds, standard_deviation_rebounds, average_steals, standard_deviation_steals, average_blocks, standard_deviation_blocks, average_turnovers, standard_deviation_turnovers, average_field_goal_percentage, standard_deviation_field_goal_percentage, average_free_throw_percentage, standard_deviation_free_throw_percentage, average_three_pointers, standard_deviation_three_pointers):
+    self.scores[0] = (self.points - average_points)/standard_deviation_points
+    self.scores[1] = (self.assists - average_assists)/standard_deviation_assists
+    self.scores[2] = (self.rebounds - average_rebounds)/standard_deviation_rebounds
+    self.scores[3] = (self.steals - average_steals)/standard_deviation_steals
+    self.scores[4] = (self.blocks - average_blocks)/standard_deviation_blocks
+    self.scores[5] = -(self.turnovers - average_turnovers)/standard_deviation_turnovers
+    self.scores[6] = (self.fgp - average_field_goal_percentage)/standard_deviation_field_goal_percentage
+    self.scores[7] = (self.ftp - average_free_throw_percentage)/standard_deviation_free_throw_percentage
+    self.scores[8] = (self.tpm - average_three_pointers)/standard_deviation_three_pointers
 
   def zScore(self, a = 1.0, b = 1.0, c = 1.0, d = 1.0, e = 1.0, f = 1.0, g = 1.0, h = 1.0, i = 1.0):
     return self.scores[0]*a + self.scores[1]*b + self.scores[2]*c + self.scores[3]*d + self.scores[4]*e + self.scores[5]*f + self.scores[6]*g + self.scores[7]*h + self.scores[8]*i
@@ -64,7 +68,7 @@ class Season:
       return 0
 
   def __str__(self):
-    return str(self.age) + str(self.year) + str(self.name) + str(self.positions) + str(self.points) + str(self.assists) + str(self.rebounds) + str(self.steals) + str(self.blocks) + str(self.turnovers) + str(self.fgp) + str(self.ftp) + str(self.tpm) + str(self.mp)
+    return str(self.age) + str(self.year) + str(self.name.value) + str(self.positions) + str(self.points) + str(self.assists) + str(self.rebounds) + str(self.steals) + str(self.blocks) + str(self.turnovers) + str(self.fgp) + str(self.ftp) + str(self.tpm) + str(self.mp)
 
   def __hash__(self):
     return (hash(str(self)))
@@ -82,6 +86,15 @@ class Season:
     x.append(self.turnovers)
     return x
 
+  def setPer(self, per):
+    self.per = per
+
+  def setVorp(self, vorp):
+    self.vorp = vorp
+
+  def setBpm(self, bpm):
+    self.bpm = bpm
+
   def dot_product(self, v1, v2):
     return sum(map(lambda x: x[0] * x[1], izip(v1, v2)))
 
@@ -93,8 +106,8 @@ class Season:
       return 1.0
     return prod/(len1*len2)
 
-  def calcSeason(self, filName, year, a, b, c, d, e, f, g, h, i, j, k, l, m):
-    fil = open(filName, 'r')
+  def calcSeason(self, season_season_file_name, year):
+    season_file = open(season_season_file_name, 'r')
     players = []
     points = 0.0
     assists = 0.0
@@ -106,69 +119,70 @@ class Season:
     ft = 0.0
     tp = 0.0
     mp = 0.0
-    plNum = 0
-    for line in fil:
+    num_players = 0
+    for line in season_file:
       #player - name position year season
-      sea = line.split('\t');
+      season_array = line.split('\t')
+      print(season_array)
       #season - age, year, name, position, point, assist, rebound, steal, block, turnover, fg, ft, tp, mp
-      season = Season(sea[a], year, sea[b], str(sea[c]), float(sea[d]), float(sea[e]), float(sea[f]), float(sea[g]), float(sea[h]), float(sea[i]), float(sea[j]), float(sea[k]), float(sea[l]), float(sea[m]))
-      points += float(sea[d])
-      assists += float(sea[e])
-      rebounds += float(sea[f])
-      steals += float(sea[g])
-      blocks += float(sea[h])
-      turnovers += float(sea[i])
-      fg += float(sea[j])
-      ft += float(sea[k])
-      tp += float(sea[l])
-      mp += float(sea[m])
+      season = Season(season_array[ReferenceColumns.age.value], year, season_array[ReferenceColumns.name.value], str(season_array[ReferenceColumns.positions.value]), float(season_array[ReferenceColumns.points.value]), float(season_array[ReferenceColumns.assists.value]), float(season_array[ReferenceColumns.rebounds.value]), float(season_array[ReferenceColumns.steals.value]), float(season_array[ReferenceColumns.blocks.value]), float(season_array[ReferenceColumns.turnovers.value]), float(season_array[ReferenceColumns.field_goal_percentage.value]), float(season_array[ReferenceColumns.free_throw_percentage.value]), float(season_array[ReferenceColumns.three_pointers.value]), float(season_array[ReferenceColumns.minutes_played.value]))
+      points += float(season_array[ReferenceColumns.points.value])
+      assists += float(season_array[ReferenceColumns.assists.value])
+      rebounds += float(season_array[ReferenceColumns.rebounds.value])
+      steals += float(season_array[ReferenceColumns.steals.value])
+      blocks += float(season_array[ReferenceColumns.blocks.value])
+      turnovers += float(season_array[ReferenceColumns.turnovers.value])
+      fg += float(season_array[ReferenceColumns.field_goal_percentage.value])
+      ft += float(season_array[ReferenceColumns.free_throw_percentage.value])
+      tp += float(season_array[ReferenceColumns.three_pointers.value])
+      mp += float(season_array[ReferenceColumns.minutes_played.value])
       season.calcZ(1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0)
-      player = NbaPlayer(sea[b], sea[c], year, season)
+      player = NbaPlayer(season_array[ReferenceColumns.name.value], season_array[ReferenceColumns.positions.value], year, season)
       players.append(player);
-      plNum += 1
-    retPlayers = []
-    stdp = 0.0
-    stda = 0.0
-    stdr = 0.0
-    stds = 0.0
-    stdb = 0.0
-    stdt = 0.0
-    stdfg = 0.0
-    stdft = 0.0
-    stdtp = 0.0
-    points = points/plNum
-    assists = assists/plNum
-    rebounds = rebounds/plNum
-    steals = steals/plNum
-    blocks = blocks/plNum
-    turnovers = turnovers/plNum
-    fg = fg/plNum
-    ft = ft/plNum
-    tp = tp/plNum
-    for pa in players:
-      se = pa.getSeason(year)
-      stdp += ((se.points - points) * (se.points - points))
-      stda += ((se.assists - assists) * (se.assists - assists))
-      stdr += ((se.rebounds - rebounds) * (se.rebounds - rebounds))
-      stds += ((se.steals - steals) * (se.steals - steals))
-      stdb += ((se.blocks - blocks) * (se.blocks - blocks))
-      stdt += ((se.turnovers - turnovers) * (se.turnovers - turnovers))
-      stdfg += ((se.fgp - fg) * (se.fgp - fg))
-      stdft += ((se.ftp - ft) * (se.ftp - ft))
-      stdtp += ((se.tpm - tp) * (se.tpm - tp))
-    stdp = stdp/plNum
-    stda = stda/plNum
-    stdr = stdr/plNum
-    stds = stds/plNum
-    stdb = stdb/plNum
-    stdt = stdt/plNum
-    stdfg = stdfg/plNum
-    stdft = stdft/plNum
-    stdtp = stdtp/plNum
-    for pa in players:
-      se = pa.getSeason(year)
-      se.calcZ(points, math.sqrt(stdp), assists, math.sqrt(stda), rebounds, math.sqrt(stdr), steals, math.sqrt(stds), blocks, math.sqrt(stdb), turnovers, math.sqrt(stdt), fg, math.sqrt(stdfg), ft, math.sqrt(stdft), tp, math.sqrt(stdtp))
-      pa.addSeason(year, se)
-      retPlayers.append(pa)
-    fil.close()
-    return retPlayers
+      num_players += 1
+    all_players = []
+    standard_deviation_points = 0.0
+    standard_deviation_assists = 0.0
+    standard_deviation_rebounds = 0.0
+    standard_deviation_steals = 0.0
+    standard_deviation_blocks = 0.0
+    standard_deviation_turnovers = 0.0
+    standard_deviation_field_goal_percentage = 0.0
+    standard_deviation_free_throw_percentage = 0.0
+    standard_deviation_three_pointers = 0.0
+    points = points/num_players
+    assists = assists/num_players
+    rebounds = rebounds/num_players
+    steals = steals/num_players
+    blocks = blocks/num_players
+    turnovers = turnovers/num_players
+    fg = fg/num_players
+    ft = ft/num_players
+    tp = tp/num_players
+    for player in players:
+      player_season = player.getSeason(year)
+      standard_deviation_points += ((player_season.points - points) * (player_season.points - points))
+      standard_deviation_assists += ((player_season.assists - assists) * (player_season.assists - assists))
+      standard_deviation_rebounds += ((player_season.rebounds - rebounds) * (player_season.rebounds - rebounds))
+      standard_deviation_steals += ((player_season.steals - steals) * (player_season.steals - steals))
+      standard_deviation_blocks += ((player_season.blocks - blocks) * (player_season.blocks - blocks))
+      standard_deviation_turnovers += ((player_season.turnovers - turnovers) * (player_season.turnovers - turnovers))
+      standard_deviation_field_goal_percentage += ((player_season.fgp - fg) * (player_season.fgp - fg))
+      standard_deviation_free_throw_percentage += ((player_season.ftp - ft) * (player_season.ftp - ft))
+      standard_deviation_three_pointers += ((player_season.tpm - tp) * (player_season.tpm - tp))
+    standard_deviation_points = standard_deviation_points/num_players
+    standard_deviation_assists = standard_deviation_assists/num_players
+    standard_deviation_rebounds = standard_deviation_rebounds/num_players
+    standard_deviation_steals = standard_deviation_steals/num_players
+    standard_deviation_blocks = standard_deviation_blocks/num_players
+    standard_deviation_turnovers = standard_deviation_turnovers/num_players
+    standard_deviation_field_goal_percentage = standard_deviation_field_goal_percentage/num_players
+    standard_deviation_free_throw_percentage = standard_deviation_free_throw_percentage/num_players
+    standard_deviation_three_pointers = standard_deviation_three_pointers/num_players
+    for player in players:
+      player_season = player.getSeason(year)
+      player_season.calcZ(points, math.sqrt(standard_deviation_points), assists, math.sqrt(standard_deviation_assists), rebounds, math.sqrt(standard_deviation_rebounds), steals, math.sqrt(standard_deviation_steals), blocks, math.sqrt(standard_deviation_blocks), turnovers, math.sqrt(standard_deviation_turnovers), fg, math.sqrt(standard_deviation_field_goal_percentage), ft, math.sqrt(standard_deviation_free_throw_percentage), tp, math.sqrt(standard_deviation_three_pointers))
+      player.addSeason(year, player_season)
+      all_players.append(player)
+    season_file.close()
+    return all_players

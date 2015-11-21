@@ -10,7 +10,7 @@ players = []
 all_seasons_by_age = dict()
 for year in range(firstYear, lastYear+1):
   se = Season()
-  sortedPlayers = se.calcSeason('season/' + str(year) + 'Stats.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11, 7)
+  sortedPlayers = se.calcSeason('season/' + str(year) + 'Stats.txt', year
   for pa in sortedPlayers:
     ses = pa.getSeason(year)
     hold = dict()
@@ -25,11 +25,11 @@ for year in range(firstYear, lastYear+1):
     else:
       players.append(pa)
 
-lastSeason = se.calcSeason('season/lastStats.txt', year, 3, 1, 2, 28, 23, 22, 24, 25, 26, 10, 19, 11, 7)
+lastSeason = se.calcSeason('season/lastStats.txt', year)
 
 n = open('season/nextSeason.txt', 'w')
 for pa in lastSeason:
-  #skip if they played less than 5 minutes per game last season
+  #skip if they played less than 10 minutes per game last season
   if pa.getSeason(lastYear).mp < 10.0:
     print "Skipping " + pa.getSeason(lastYear).name
     continue
