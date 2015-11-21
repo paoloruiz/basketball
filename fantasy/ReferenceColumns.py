@@ -24,7 +24,7 @@ class ReferenceColumns(Enum):
   free_throw_percentage = 20
   offensive_rebounds = 21
   defensive_rebounds = 22
-  total_rebounds = 23
+  rebounds = 23
   assists = 24
   steals = 25
   blocks = 26

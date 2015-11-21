@@ -10,7 +10,7 @@ class Season:
       return
     self.age = age
     self.year = year
-    self.name.value = name
+    self.name = name
     self.positions = position.split(',')
     self.points = point
     self.assists = assist
@@ -68,7 +68,7 @@ class Season:
       return 0
 
   def __str__(self):
-    return str(self.age) + str(self.year) + str(self.name.value) + str(self.positions) + str(self.points) + str(self.assists) + str(self.rebounds) + str(self.steals) + str(self.blocks) + str(self.turnovers) + str(self.fgp) + str(self.ftp) + str(self.tpm) + str(self.mp)
+    return str(self.age) + str(self.year) + str(self.name) + str(self.positions) + str(self.points) + str(self.assists) + str(self.rebounds) + str(self.steals) + str(self.blocks) + str(self.turnovers) + str(self.fgp) + str(self.ftp) + str(self.tpm) + str(self.mp)
 
   def __hash__(self):
     return (hash(str(self)))
@@ -106,8 +106,8 @@ class Season:
       return 1.0
     return prod/(len1*len2)
 
-  def calcSeason(self, season_season_file_name, year):
-    season_file = open(season_season_file_name, 'r')
+  def calcSeason(self, season_file_name, year):
+    season_file = open(season_file_name, 'r')
     players = []
     points = 0.0
     assists = 0.0
@@ -120,10 +120,10 @@ class Season:
     tp = 0.0
     mp = 0.0
     num_players = 0
+    print season_file_name
     for line in season_file:
       #player - name position year season
       season_array = line.split('\t')
-      print(season_array)
       #season - age, year, name, position, point, assist, rebound, steal, block, turnover, fg, ft, tp, mp
       season = Season(season_array[ReferenceColumns.age.value], year, season_array[ReferenceColumns.name.value], str(season_array[ReferenceColumns.positions.value]), float(season_array[ReferenceColumns.points.value]), float(season_array[ReferenceColumns.assists.value]), float(season_array[ReferenceColumns.rebounds.value]), float(season_array[ReferenceColumns.steals.value]), float(season_array[ReferenceColumns.blocks.value]), float(season_array[ReferenceColumns.turnovers.value]), float(season_array[ReferenceColumns.field_goal_percentage.value]), float(season_array[ReferenceColumns.free_throw_percentage.value]), float(season_array[ReferenceColumns.three_pointers.value]), float(season_array[ReferenceColumns.minutes_played.value]))
       points += float(season_array[ReferenceColumns.points.value])

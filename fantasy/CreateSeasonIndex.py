@@ -8,7 +8,7 @@ from score import Score
 
 start = time.clock()
 
-first_year = 1991
+first_year = 1990
 last_year = 2014
 players = []
 all_seasons_by_age = dict()
@@ -18,7 +18,7 @@ for year in range(first_year, last_year + 1):
   for player in sorted_players:
     seasons = player.getSeason(year)
     hold = dict()
-    if int(seaons.age) in all_seasons_by_age:
+    if int(seasons.age) in all_seasons_by_age:
       hold = all_seasons_by_age[int(seasons.age)]
     hold[seasons] = player
     all_seasons_by_age[int(seasons.age)] = hold
