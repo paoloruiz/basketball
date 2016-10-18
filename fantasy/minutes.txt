@@ -1,0 +1,30 @@
+Things that can affect minutes
+
+Minutes played last year
+Points scored last year
+assists made last year
+...
+
+Per last year
+Vorp last year
+...
+
+Position by last year
+Rank by per last year
+Rank by vorp last year
+...
+
+Position rank by per last year
+Position rank by vorp last year
+...
+
+Position by coach last year
+Position rank by coach by per last year
+..
+Position by team last year
+Position rank by team by per last year
+..
+
+Draft position by last year (decreases as time goes on?)
+Age by last year
+Years played by last year
