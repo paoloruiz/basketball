@@ -1,0 +1,1 @@
+I've got the first values ready to go by looking at the minutes data generated in the minutes folder by my predictMinutes.py. After that I can run plotData.py to read the file and get a formula for prediciting minutes. I should add to this so that I have better predictions for minutes.

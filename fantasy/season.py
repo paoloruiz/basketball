@@ -106,7 +106,7 @@ class Season:
       return 1.0
     return prod/(len1*len2)
 
-  def calcSeason(self, season_file_name, year):
+  def calcSeason(self, season_file_name, year, min_minutes_per_game = 0.0, min_games = 0):
     season_file = open(season_file_name, 'r')
     players = []
     points = 0.0
@@ -120,10 +120,13 @@ class Season:
     tp = 0.0
     mp = 0.0
     num_players = 0
-    print season_file_name
     for line in season_file:
       #player - name position year season
       season_array = line.split('\t')
+      if (min_minutes_per_game > season_array[ReferenceColumns.minutes_played.value]):
+        continue
+      elif (min_games > season_array[ReferenceColumns.games_played.value]):
+        continue
       #season - age, year, name, position, point, assist, rebound, steal, block, turnover, fg, ft, tp, mp
       season = Season(season_array[ReferenceColumns.age.value], year, season_array[ReferenceColumns.name.value], str(season_array[ReferenceColumns.positions.value]), float(season_array[ReferenceColumns.points.value]), float(season_array[ReferenceColumns.assists.value]), float(season_array[ReferenceColumns.rebounds.value]), float(season_array[ReferenceColumns.steals.value]), float(season_array[ReferenceColumns.blocks.value]), float(season_array[ReferenceColumns.turnovers.value]), float(season_array[ReferenceColumns.field_goal_percentage.value]), float(season_array[ReferenceColumns.free_throw_percentage.value]), float(season_array[ReferenceColumns.three_pointers.value]), float(season_array[ReferenceColumns.minutes_played.value]))
       points += float(season_array[ReferenceColumns.points.value])

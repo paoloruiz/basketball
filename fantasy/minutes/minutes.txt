@@ -28,3 +28,6 @@ Position rank by team by per last year
 Draft position by last year (decreases as time goes on?)
 Age by last year
 Years played by last year
+
+Portion of per by team whole (e.g. add up all per's of team then what percentage you are)
+...

@@ -8,13 +8,15 @@ from score import Score
 
 start = time.clock()
 
-first_year = 1990
+first_year = 2000
 last_year = 2014
+min_minutes_played = 10.0
+min_games = 20
 players = []
 all_seasons_by_age = dict()
 for year in range(first_year, last_year + 1):
   this_season = Season()
-  sorted_players = this_season.calcSeason('season/' + str(year) + 'Stats.txt', year)
+  sorted_players = this_season.calcSeason('season/' + str(year) + 'Stats.txt', year, min_minutes_played, min_games)
   for player in sorted_players:
     seasons = player.getSeason(year)
     hold = dict()
@@ -35,7 +37,11 @@ for year in range(first_year, last_year + 1):
     advanced_stats = line.split('\t')
     player_name = advanced_stats[AdvancedReferenceColumns.name.value]
     fake_player = NbaPlayer(player_name, 'PG', 1990, {})
+    if fake_player not in players:
+      continue
     player_index = players.index(fake_player)
+    if not players[player_index].hasSeason(year):
+      continue
     player_season = players[player_index].getSeason(year)
     player_season.setPer(float(advanced_stats[AdvancedReferenceColumns.per.value]))
     player_season.setBpm(float(advanced_stats[AdvancedReferenceColumns.bpm.value]))
@@ -55,8 +61,10 @@ vorps = []
 vorp_min = 300.0
 vorp_max = -300.0
 for player in players:
-  year = player.getFirstYear()
-  while player.hasSeason(year + 1):
+  first_player_year = player.getFirstYear()
+  for year in range(first_player_year, last_year):
+    if not (player.hasSeason(year) and player.hasSeason(year+1)):
+      continue
     this_season = player.getSeason(year)
     next_season = player.getSeason(year + 1)
     per = this_season.per
@@ -78,7 +86,6 @@ for player in players:
       vorp_min = vorp
     if vorp > vorp_max:
       vorp_max = vorp
-    year = year + 1
 
 print 'per_min: ' + str(per_min)
 print 'per_max: ' + str(per_max)
