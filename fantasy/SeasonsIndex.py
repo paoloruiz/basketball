@@ -17,7 +17,10 @@ def parseSeasons():
   all_seasons_by_age = dict()
   for year in range(first_year, last_year + 1):
     this_season = Season()
-    sorted_players = this_season.calcSeason('season/' + str(year) + 'Stats.txt', year, min_minutes_played, min_games)
+    try:
+      sorted_players = this_season.calcSeason('season/' + str(year) + 'Stats.txt', year, min_minutes_played, min_games)
+    except IndexError:
+      print(str(year))
     for player in sorted_players:
       seasons = player.getSeason(year)
       hold = dict()

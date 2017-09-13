@@ -162,7 +162,20 @@ class Season:
       elif (min_games > season_array[ReferenceColumns.games_played.value]):
         continue
       #season - age, year, name, position, point, assist, rebound, steal, block, turnover, fg, ft, tp, mp
-      season = Season(season_array[ReferenceColumns.age.value], year, season_array[ReferenceColumns.name.value], str(season_array[ReferenceColumns.positions.value]), float(season_array[ReferenceColumns.points.value]), float(season_array[ReferenceColumns.assists.value]), float(season_array[ReferenceColumns.rebounds.value]), float(season_array[ReferenceColumns.steals.value]), float(season_array[ReferenceColumns.blocks.value]), float(season_array[ReferenceColumns.turnovers.value]), float(season_array[ReferenceColumns.field_goal_percentage.value]), float(season_array[ReferenceColumns.free_throw_percentage.value]), float(season_array[ReferenceColumns.three_pointers.value]), float(season_array[ReferenceColumns.minutes_played.value]))
+      age_col = season_array[ReferenceColumns.age.value]
+      name_col = season_array[ReferenceColumns.name.value]
+      positions_col = str(season_array[ReferenceColumns.positions.value])
+      points_col = float(season_array[ReferenceColumns.points.value])
+      assists_col = float(season_array[ReferenceColumns.assists.value])
+      rebounds_col = float(season_array[ReferenceColumns.rebounds.value])
+      steals_col = float(season_array[ReferenceColumns.steals.value])
+      blocks_col = float(season_array[ReferenceColumns.blocks.value])
+      turnovers_col = float(season_array[ReferenceColumns.turnovers.value])
+      fgp_col = float(season_array[ReferenceColumns.field_goal_percentage.value])
+      ftp_col = float(season_array[ReferenceColumns.free_throw_percentage.value])
+      tpm_col = float(season_array[ReferenceColumns.three_pointers.value])
+      minutes_col = float(season_array[ReferenceColumns.minutes_played.value])
+      season = Season(age_col, year, name_col, positions_col, points_col, assists_col, rebounds_col, steals_col, blocks_col, turnovers_col, fgp_col, ftp_col, tpm_col, minutes_col)
       points += float(season_array[ReferenceColumns.points.value])
       assists += float(season_array[ReferenceColumns.assists.value])
       rebounds += float(season_array[ReferenceColumns.rebounds.value])
