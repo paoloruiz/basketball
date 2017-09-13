@@ -10,7 +10,7 @@ def parseSeasons():
   start = time.clock()
 
   first_year = 2000
-  last_year = 2014
+  last_year = 2017
   min_minutes_played = 10.0
   min_games = 20
   players = []

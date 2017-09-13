@@ -27,6 +27,40 @@ class Season:
     self.bpm = 0.0
     self.scores = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
+  def getStatsByRateByInputNumer(self, inputNum):
+    # this is for predicting each stat (as a rate if applicable)
+    if self.mp <= 0.0:
+      return 0.0
+    if inputNum == 0:
+      return self.age
+    if inputNum == 1:
+      return self.points / self.mp
+    if inputNum == 2:
+      return self.assists / self.mp
+    if inputNum == 3:
+      return self.rebounds / self.mp
+    if inputNum == 4:
+      return self.steals / self.mp
+    if inputNum == 5:
+      return self.blocks / self.mp
+    if inputNum == 6:
+      return self.turnovers / self.mp
+    if inputNum == 7:
+      return self.fgp
+    if inputNum == 8:
+      return self.ftp
+    if inputNum == 9:
+      return self.tpm
+    if inputNum == 10:
+      return self.mp
+    if inputNum == 11:
+      return self.per
+    if inputNum == 12:
+      return self.vorp
+    if inputNum == 13:
+      return self.bpm
+    return 0.0
+
   def calcZ(self, average_points, standard_deviation_points, average_assists, standard_deviation_assists, average_rebounds, standard_deviation_rebounds, average_steals, standard_deviation_steals, average_blocks, standard_deviation_blocks, average_turnovers, standard_deviation_turnovers, average_field_goal_percentage, standard_deviation_field_goal_percentage, average_free_throw_percentage, standard_deviation_free_throw_percentage, average_three_pointers, standard_deviation_three_pointers):
     self.scores[0] = (self.points - average_points)/standard_deviation_points
     self.scores[1] = (self.assists - average_assists)/standard_deviation_assists

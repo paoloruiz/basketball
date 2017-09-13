@@ -3,6 +3,9 @@ the predictMinutes file will be used to generate all files by minutes.
 Need to extend this to work with all different files. probably by editing seasons.
 
 
+the generate stats python file will generate a folder with all the data. the data is ordered by
+*directory name* *file name* in stats
+
 *SEASON.txt - 
 from basketball-reference.com
 rank player position age team games games started minutes played fg fga fgp 3p 3pa 3p% 2p 2pa 2p% ft fta ft% orb drb trb ast stl blk tov pf pts
