@@ -36,6 +36,6 @@ for player in players:
     startYear += 1
     nextYear += 1
 
-for key, files in statsData:
-  for secondKey, fileToClose in files:
+for key, files in statsData.items():
+  for secondKey, fileToClose in files.items():
     fileToClose.close()

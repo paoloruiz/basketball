@@ -27,7 +27,7 @@ class Season:
     self.bpm = 0.0
     self.scores = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-  def getStatsByRateByInputNumer(self, inputNum):
+  def getStatsByRateByInputNumber(self, inputNum):
     # this is for predicting each stat (as a rate if applicable)
     if self.mp <= 0.0:
       return 0.0
