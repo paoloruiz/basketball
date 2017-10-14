@@ -27,6 +27,40 @@ class Season:
     self.bpm = 0.0
     self.scores = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
+  def getStatsByLoopVar(self, inputName):
+    statsToPredictLoop = [
+    'points',
+    'assists',
+    'rebounds',
+    'steals',
+    'blocks',
+    'turnovers',
+    'fgp',
+    'ftp',
+    'tpm',
+    'minutes'
+    ]
+    if inputName == 0:
+      return self.points / self.mp
+    if inputName == 1:
+      return self.assists/ self.mp
+    if inputName == 2:
+      return self.rebounds / self.mp
+    if inputName == 3:
+      return self.steals / self.mp
+    if inputName == 4:
+      return self.blocks / self.mp
+    if inputName == 5:
+      return self.turnovers / self.mp
+    if inputName == 6:
+      return self.fgp
+    if inputName == 7:
+      return self.ftp
+    if inputName == 8:
+      return self.tpm
+    else:
+      return self.mp
+
   def getStatsByRateByInputNumber(self, inputNum):
     # this is for predicting each stat (as a rate if applicable)
     if self.mp <= 0.0:

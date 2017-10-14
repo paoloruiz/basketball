@@ -1,24 +1,10 @@
 import SeasonsIndex
 import os
-
+from PredictionStats import PredictionStats
 players = SeasonsIndex.parseSeasons()
 #Need to figure out a way to make this work with multiple different dimensions at once
-statsToLoop = [
-'age',
-'points',
-'assists',
-'rebounds',
-'steals',
-'blocks',
-'turnovers'
-'fgp',
-'ftp',
-'tpm',
-'minutes',
-'per',
-'vorp',
-'bpm'
-]
+
+statsToLoop = PredictionStats.statsToLoop.value
 statsData = {}
 for stat in statsToLoop:
   if not os.path.exists(stat):
